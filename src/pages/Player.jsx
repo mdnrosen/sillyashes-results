@@ -1,0 +1,28 @@
+import React, { useEffect, useState } from 'react'
+import { Box } from '@mui/material'
+import { useParams } from 'react-router-dom'
+import data from '../assets/dummyData.json'
+
+export const Player = () => {
+    const params = useParams()
+    const [ player, setPlayer ] = useState(null)
+
+    useEffect(() => {
+        setPlayer(data.find(player => player.id === params.id))
+    },[])
+
+    if (!player) {
+        return <h1>Loading...</h1>
+
+    }
+
+  return (
+    <Box key={player.id}>
+        <h2>{player.name}</h2>
+        <p>{player.score}</p>
+
+    </Box>
+
+    // WRITE A JSON OBJECT WITH 5 PLAYERS OF DIFFERENT SCORES OF UPTO 100
+  )
+}

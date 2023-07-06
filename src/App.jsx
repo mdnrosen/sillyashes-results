@@ -1,0 +1,27 @@
+import { Container } from '@mui/material'
+import { BrowserRouter, Routes, Route  } from 'react-router-dom'
+import './App.css'
+
+
+import { Home } from './pages/Home'
+import { Player } from './pages/Player'
+
+
+function App() {
+
+  return (
+    <Container>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/:id' element={<Player />} />
+        </Routes>
+      </BrowserRouter>
+    </Container>
+  )
+}
+
+export default App
+
+
+// JSON op
