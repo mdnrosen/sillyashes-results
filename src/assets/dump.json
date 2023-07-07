@@ -1,0 +1,1826 @@
+[
+    {
+      "guesses": {
+        "tf_batterDrop": "false",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Zak Crawley",
+          "Marcus Harris",
+          "Usman Khawaja"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "85",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "false",
+        "m_venues": "Old Trafford",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "29",
+        "num_stokesSR": "115",
+        "m_camGreen": "Bowling Average",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "ausFS": "Pat Cummins",
+          "engFS": "Ollie Robinson"
+        },
+        "m_afterThree": "2 - 1 Australia",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Ben Stokes",
+          "ausSixes": "Cameron Green"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Harry Brook",
+        "5fers": [
+          "James Anderson",
+          "Ollie Robinson",
+          "Pat Cummins",
+          "Nathan Lyon"
+        ],
+        "num_spin": "41",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "Joe Root",
+        "num_wk": "42",
+        "tons": [
+          "Harry Brook",
+          "Joe Root",
+          "Travis Head",
+          "Steve Smith",
+          "Marnus Labuschagne"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Neither"
+      },
+      "id": "1c199c97-b4e9-4265-acb7-4eeafb56a1e2",
+      "name": "Deasy"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "false",
+        "m_tailenders": "Bowled",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Ben Stokes",
+          "Marcus Harris",
+          "Zak Crawley"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "Stuart Broad",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "100",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "true",
+        "m_venues": "The Oval",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "30",
+        "num_stokesSR": "150",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "engFS": "Stuart Broad",
+          "ausFS": "Pat Cummins"
+        },
+        "m_afterThree": "2 - 1 England",
+        "tf_chase": "true",
+        "tf_decided": "false",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "Travis Head"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "James Anderson",
+          "Stuart Broad",
+          "Ollie Robinson",
+          "Scott Boland",
+          "Pat Cummins",
+          "Josh Hazlewood"
+        ],
+        "num_spin": "25",
+        "m_warnerBroad": "3 - 4",
+        "h2h_catches": "David Warner",
+        "num_wk": "30",
+        "tons": [
+          "Jonny Bairstow",
+          "Harry Brook",
+          "Ollie Pope",
+          "Joe Root",
+          "Travis Head",
+          "Marnus Labuschagne",
+          "Steve Smith",
+          "Ben Duckett"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Neither"
+      },
+      "id": "7d865491-1592-4eb5-8838-ab52b9176753",
+      "name": "Oli Tipton"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "LBW",
+        "h2h_wickets_pt": "Marnus Labuschagne",
+        "quack": [
+          "Moeen Ali",
+          "Jonny Bairstow",
+          "Zak Crawley"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Marnus Labuschagne",
+        "num_elevenRuns": "129",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "false",
+        "m_venues": "Headingley",
+        "tf_woakes": "true",
+        "tf_rootTon": "true",
+        "num_playersTotal": "27",
+        "num_stokesSR": "76",
+        "m_camGreen": "Bowling Average",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "engFS": "Moeen Ali",
+          "ausFS": "Nathan Lyon"
+        },
+        "m_afterThree": "2 - 0 Australia",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Ben Stokes",
+          "ausSixes": "Marnus Labuschagne"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "James Anderson",
+          "Stuart Broad",
+          "Moeen Ali",
+          "Pat Cummins",
+          "Josh Hazlewood",
+          "Nathan Lyon",
+          "Mitchell Starc"
+        ],
+        "num_spin": "58",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "David Warner",
+        "num_wk": "35",
+        "tons": [
+          "Jonny Bairstow",
+          "Zak Crawley",
+          "Ollie Pope",
+          "Joe Root",
+          "Ben Stokes",
+          "Marnus Labuschagne",
+          "Steve Smith",
+          "Usman Khawaja",
+          "David Warner"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Neither"
+      },
+      "id": "5da24c77-3105-49dd-922f-377bd9b0083e",
+      "name": "Danny"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "false",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Zak Crawley",
+          "David Warner",
+          "Usman Khawaja"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "37",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "England",
+        "tf_nighthawk": "true",
+        "m_venues": "Old Trafford",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "26",
+        "num_stokesSR": "87",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "350+",
+        "fullStraight": {
+          "engFS": "Ollie Robinson",
+          "ausFS": "Scott Boland"
+        },
+        "m_afterThree": "2 - 1 England",
+        "tf_chase": "false",
+        "tf_decided": "false",
+        "bigHitters": {
+          "engSixes": "Jonny Bairstow",
+          "ausSixes": "Travis Head"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "James Anderson",
+          "Ollie Robinson",
+          "Scott Boland",
+          "Pat Cummins",
+          "Josh Hazlewood"
+        ],
+        "num_spin": "25",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "David Warner",
+        "num_wk": "47",
+        "tons": [
+          "Harry Brook",
+          "Zak Crawley",
+          "Ben Duckett",
+          "Ollie Pope",
+          "Joe Root",
+          "Cameron Green",
+          "Travis Head",
+          "Marnus Labuschagne",
+          "Steve Smith"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Jimmy Anderson"
+      },
+      "id": "f28b55ce-992e-4fb0-b86e-d73868fb7369",
+      "name": "Rob G"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "LBW",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Rehan Ahmed",
+          "Zak Crawley"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Marnus Labuschagne",
+        "num_elevenRuns": "85",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "true",
+        "m_venues": "Old Trafford",
+        "tf_woakes": "true",
+        "tf_rootTon": "true",
+        "num_playersTotal": "27",
+        "num_stokesSR": "37",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "250 - 299",
+        "fullStraight": {
+          "engFS": "Ollie Robinson",
+          "ausFS": "Mitchell Starc"
+        },
+        "m_afterThree": "1 - 0 England",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Ben Stokes",
+          "ausSixes": "David Warner"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "Ollie Robinson",
+          "Pat Cummins"
+        ],
+        "num_spin": "45",
+        "m_warnerBroad": "0 - 1",
+        "h2h_catches": "David Warner",
+        "num_wk": "100",
+        "tons": [
+          "Joe Root",
+          "Travis Head",
+          "Marnus Labuschagne",
+          "David Warner",
+          "Steve Smith",
+          "Jonny Bairstow"
+        ],
+        "tf_bazBall": "false",
+        "m_retirement": "Jimmy Anderson"
+      },
+      "id": "c700252d-3457-4ae9-859d-6a4905091492",
+      "name": "matt scott"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "false",
+        "m_tailenders": "Stumped",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Jonny Bairstow",
+          "Cameron Green",
+          "Marcus Harris"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "Stuart Broad",
+        "h2h_runs_aus": "Marnus Labuschagne",
+        "num_elevenRuns": "6",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "true",
+        "m_venues": "Old Trafford",
+        "tf_woakes": "true",
+        "tf_rootTon": "true",
+        "num_playersTotal": "18",
+        "num_stokesSR": "17",
+        "m_camGreen": "Bowling Average",
+        "m_firstInns": "200 - 249",
+        "fullStraight": {
+          "engFS": "Ben Stokes",
+          "ausFS": "Pat Cummins"
+        },
+        "m_afterThree": "2 - 1 Australia",
+        "tf_chase": "false",
+        "tf_decided": "false",
+        "bigHitters": {
+          "engSixes": "Stuart Broad",
+          "ausSixes": "Nathan Lyon"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "Stuart Broad",
+          "Will Jacks",
+          "Matthew Potts",
+          "Sean Abbott",
+          "Michael Neser"
+        ],
+        "num_spin": "29",
+        "m_warnerBroad": "0 - 1",
+        "h2h_catches": "Joe Root",
+        "num_wk": "6",
+        "tons": [
+          "Zak Crawley",
+          "Ben Duckett",
+          "Joe Root",
+          "Ben Stokes",
+          "Marcus Harris",
+          "Steve Smith"
+        ],
+        "tf_bazBall": "false",
+        "m_retirement": "Neither"
+      },
+      "id": "936a4d16-1786-4f35-bd30-a633f6d2c173",
+      "name": "Bri"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Caught Behind",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Moeen Ali",
+          "David Warner"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Marnus Labuschagne",
+        "num_elevenRuns": "50",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "true",
+        "m_venues": "The Oval",
+        "tf_woakes": "true",
+        "tf_rootTon": "true",
+        "num_playersTotal": "25",
+        "num_stokesSR": "95",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "engFS": "Ollie Robinson",
+          "ausFS": "Pat Cummins"
+        },
+        "m_afterThree": "1 - 1",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Jonny Bairstow",
+          "ausSixes": "Sean Abbott"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "James Anderson",
+          "Pat Cummins",
+          "Scott Boland",
+          "Nathan Lyon"
+        ],
+        "num_spin": "25",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "Joe Root",
+        "num_wk": "20",
+        "tons": [
+          "Ollie Pope",
+          "Joe Root",
+          "Travis Head",
+          "Steve Smith",
+          "Marnus Labuschagne"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Stuart Broad"
+      },
+      "id": "141af6be-ac8b-43a2-b006-41169ca8d174",
+      "name": "Tom Eadon "
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Bowled",
+        "h2h_wickets_pt": "Marnus Labuschagne",
+        "quack": [
+          "Moeen Ali",
+          "Harry Brook",
+          "Zak Crawley"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Marnus Labuschagne",
+        "num_elevenRuns": "40",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "false",
+        "m_venues": "The Oval",
+        "tf_woakes": "false",
+        "tf_rootTon": "false",
+        "num_playersTotal": "27",
+        "num_stokesSR": "78",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "200 - 249",
+        "fullStraight": {
+          "engFS": "Mark Wood",
+          "ausFS": "Pat Cummins"
+        },
+        "m_afterThree": "2 - 1 Australia",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Jonny Bairstow",
+          "ausSixes": "Travis Head"
+        },
+        "tf_moreThanBurns": "false",
+        "h2h_wickets_aus": "Scott Boland",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "James Anderson",
+          "Stuart Broad",
+          "Scott Boland",
+          "Nathan Lyon"
+        ],
+        "num_spin": "40",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "Joe Root",
+        "num_wk": "23",
+        "tons": [
+          "Jonny Bairstow",
+          "Ben Duckett",
+          "Travis Head",
+          "Steve Smith"
+        ],
+        "tf_bazBall": "false",
+        "m_retirement": "Neither"
+      },
+      "id": "9923512a-ff74-4f3d-bf90-e7827cc6df69",
+      "name": "Hollard "
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Zak Crawley",
+          "Ben Stokes",
+          "Ollie Pope"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Marnus Labuschagne",
+        "num_elevenRuns": "53",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "true",
+        "m_venues": "Old Trafford",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "28",
+        "num_stokesSR": "80",
+        "m_camGreen": "Bowling Average",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "ausFS": "Nathan Lyon",
+          "engFS": "Ollie Robinson"
+        },
+        "m_afterThree": "2 - 1 England",
+        "tf_chase": "true",
+        "tf_decided": "false",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "Travis Head"
+        },
+        "tf_moreThanBurns": "false",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "Stuart Broad",
+          "Ollie Robinson",
+          "James Anderson",
+          "Pat Cummins",
+          "Scott Boland",
+          "Nathan Lyon"
+        ],
+        "num_spin": "35",
+        "m_warnerBroad": "3 - 4",
+        "h2h_catches": "David Warner",
+        "num_wk": "43",
+        "tons": [
+          "Jonny Bairstow",
+          "Harry Brook",
+          "Ben Duckett",
+          "Joe Root",
+          "Travis Head",
+          "Marnus Labuschagne",
+          "Steve Smith"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Jimmy Anderson"
+      },
+      "id": "2489f1c6-bb3f-47bf-b5f2-1e195c14da5a",
+      "name": "James D"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Zak Crawley",
+          "Cameron Green",
+          "Ollie Pope"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Marnus Labuschagne",
+        "num_elevenRuns": "75",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "England",
+        "tf_nighthawk": "true",
+        "m_venues": "The Oval",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "16",
+        "num_stokesSR": "87",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "250 - 299",
+        "fullStraight": {
+          "engFS": "Stuart Broad",
+          "ausFS": "Pat Cummins"
+        },
+        "m_afterThree": "2 - 1 Australia",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "Cameron Green"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Scott Boland",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "Moeen Ali",
+          "Ollie Robinson",
+          "Scott Boland",
+          "Nathan Lyon",
+          "James Anderson"
+        ],
+        "num_spin": "34",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "Joe Root",
+        "num_wk": "28",
+        "tons": [
+          "Jonny Bairstow",
+          "Harry Brook",
+          "Joe Root",
+          "Travis Head",
+          "Usman Khawaja",
+          "Marnus Labuschagne",
+          "Steve Smith"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Jimmy Anderson"
+      },
+      "id": "d0675f0a-6143-4440-be94-12beb6e374f4",
+      "name": "Jake T"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "David Warner",
+          "Joe Root",
+          "Zak Crawley"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "100",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "true",
+        "m_venues": "Edgbaston",
+        "tf_woakes": "false",
+        "tf_rootTon": "false",
+        "num_playersTotal": "25",
+        "num_stokesSR": "76",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "engFS": "Stuart Broad",
+          "ausFS": "Scott Boland"
+        },
+        "m_afterThree": "2 - 1 England",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "David Warner"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Harry Brook",
+        "5fers": [
+          "Ollie Robinson",
+          "Mark Wood",
+          "Pat Cummins",
+          "Scott Boland"
+        ],
+        "num_spin": "20",
+        "m_warnerBroad": "3 - 4",
+        "h2h_catches": "David Warner",
+        "num_wk": "30",
+        "tons": [
+          "Harry Brook",
+          "Ollie Pope",
+          "Joe Root",
+          "Ben Stokes",
+          "Cameron Green",
+          "Travis Head",
+          "Marnus Labuschagne",
+          "Steve Smith"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Jimmy Anderson"
+      },
+      "id": "035f6907-773f-4d37-8215-1fc69c417071",
+      "name": "Rob Young"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "false",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Moeen Ali",
+          "Zak Crawley",
+          "David Warner"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "36",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "true",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "false",
+        "m_venues": "Old Trafford",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "26",
+        "num_stokesSR": "230",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "250 - 299",
+        "fullStraight": {
+          "engFS": "Stuart Broad",
+          "ausFS": "Scott Boland"
+        },
+        "m_afterThree": "2 - 1 England",
+        "tf_chase": "true",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "Mitchell Starc"
+        },
+        "tf_moreThanBurns": "false",
+        "h2h_wickets_aus": "Scott Boland",
+        "h2h_runs_eng": "Harry Brook",
+        "5fers": [
+          "James Anderson",
+          "Scott Boland",
+          "Mitchell Starc"
+        ],
+        "num_spin": "65",
+        "m_warnerBroad": "3 - 4",
+        "h2h_catches": "David Warner",
+        "num_wk": "55",
+        "tons": [
+          "Jonny Bairstow",
+          "Harry Brook",
+          "Ben Duckett",
+          "Ollie Pope",
+          "Joe Root",
+          "Cameron Green",
+          "Travis Head",
+          "Steve Smith",
+          "Marnus Labuschagne"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Jimmy Anderson"
+      },
+      "id": "09287246-2c8f-4e16-b069-bdec59944b70",
+      "name": "Cooney"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Moeen Ali",
+          "David Warner",
+          "Usman Khawaja"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "Stuart Broad",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "78",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "England",
+        "tf_nighthawk": "false",
+        "m_venues": "Lord's",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "34",
+        "num_stokesSR": "86",
+        "m_camGreen": "Bowling Average",
+        "m_firstInns": "350+",
+        "fullStraight": {
+          "engFS": "Stuart Broad",
+          "ausFS": "Scott Boland"
+        },
+        "m_afterThree": "2 - 1 Australia",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "Travis Head"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Harry Brook",
+        "5fers": [
+          "Stuart Broad",
+          "Scott Boland",
+          "Ollie Robinson",
+          "James Anderson",
+          "Mitchell Starc"
+        ],
+        "num_spin": "102",
+        "m_warnerBroad": "3 - 4",
+        "h2h_catches": "Joe Root",
+        "num_wk": "68",
+        "tons": [
+          "Harry Brook",
+          "Travis Head",
+          "Steve Smith",
+          "Marnus Labuschagne",
+          "Joe Root",
+          "Jonny Bairstow"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Neither"
+      },
+      "id": "930fb975-494b-4cca-8fd9-f0070e001397",
+      "name": "Jamie Weatherald"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Zak Crawley",
+          "David Warner",
+          "Jonny Bairstow"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Marnus Labuschagne",
+        "num_elevenRuns": "60",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "England",
+        "tf_nighthawk": "false",
+        "m_venues": "Old Trafford",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "30",
+        "num_stokesSR": "105",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "250 - 299",
+        "fullStraight": {
+          "engFS": "James Anderson",
+          "ausFS": "Pat Cummins"
+        },
+        "m_afterThree": "2 - 1 Australia",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "Cameron Green"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "James Anderson",
+          "Ollie Robinson",
+          "Pat Cummins",
+          "Nathan Lyon",
+          "Mitchell Starc"
+        ],
+        "num_spin": "40",
+        "m_warnerBroad": "5 - 6",
+        "h2h_catches": "Joe Root",
+        "num_wk": "34",
+        "tons": [
+          "Jonny Bairstow",
+          "Harry Brook",
+          "Ben Duckett",
+          "Joe Root",
+          "Marnus Labuschagne",
+          "Steve Smith",
+          "Travis Head"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Jimmy Anderson"
+      },
+      "id": "e775a027-fe10-4229-83e1-1057a48deba7",
+      "name": "DoC"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "false",
+        "m_tailenders": "Bowled",
+        "h2h_wickets_pt": "Marnus Labuschagne",
+        "quack": [
+          "David Warner",
+          "Zak Crawley",
+          "Moeen Ali"
+        ],
+        "tf_moeen": "true",
+        "h2h_runs_aus": "Marnus Labuschagne",
+        "h2h_wickets_eng": "James Anderson",
+        "num_elevenRuns": "27",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "true",
+        "m_venues": "Lord's",
+        "tf_rootTon": "true",
+        "tf_woakes": "true",
+        "num_playersTotal": "30",
+        "m_camGreen": "Bowling Average",
+        "num_stokesSR": "100",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "ausFS": "Nathan Lyon",
+          "engFS": "Moeen Ali"
+        },
+        "m_afterThree": "2 - 1 England",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "Alex Carey"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_runs_eng": "Joe Root",
+        "h2h_wickets_aus": "Pat Cummins",
+        "5fers": [
+          "Moeen Ali",
+          "Stuart Broad",
+          "Ollie Robinson",
+          "Chris Woakes",
+          "Nathan Lyon",
+          "Pat Cummins",
+          "Mitchell Starc",
+          "Cameron Green"
+        ],
+        "num_spin": "26",
+        "m_warnerBroad": "3 - 4",
+        "h2h_catches": "Joe Root",
+        "num_wk": "48",
+        "tons": [
+          "Joe Root",
+          "Cameron Green",
+          "Marnus Labuschagne",
+          "Steve Smith",
+          "Ollie Pope",
+          "Jonny Bairstow",
+          "Harry Brook",
+          "Ben Duckett"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Jimmy Anderson"
+      },
+      "id": "636a1e38-efe3-46e9-93c4-17c249452e5b",
+      "name": "Westie "
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Bowled",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "David Warner",
+          "Zak Crawley",
+          "Harry Brook"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "71",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "true",
+        "m_venues": "Lord's",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "26",
+        "num_stokesSR": "85",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "engFS": "Stuart Broad",
+          "ausFS": "Mitchell Starc"
+        },
+        "m_afterThree": "2 - 1 England",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Jonny Bairstow",
+          "ausSixes": "Pat Cummins"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "Stuart Broad",
+          "Scott Boland",
+          "Pat Cummins",
+          "Nathan Lyon",
+          "James Anderson"
+        ],
+        "num_spin": "23",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "Joe Root",
+        "num_wk": "32",
+        "tons": [
+          "Jonny Bairstow",
+          "Harry Brook",
+          "Joe Root",
+          "Travis Head",
+          "Marnus Labuschagne",
+          "Usman Khawaja",
+          "Steve Smith"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Neither"
+      },
+      "id": "d6b0aae1-f3f9-46d0-9574-eb9162b26ee1",
+      "name": "Dave Hughes"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "false",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Marnus Labuschagne",
+        "quack": [
+          "Cameron Green",
+          "David Warner",
+          "Ben Stokes"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "65",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "true",
+        "m_venues": "Edgbaston",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "28",
+        "num_stokesSR": "127",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "200 - 249",
+        "fullStraight": {
+          "engFS": "Ollie Robinson",
+          "ausFS": "Pat Cummins"
+        },
+        "m_afterThree": "2 - 0 England",
+        "tf_chase": "false",
+        "tf_decided": "false",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "Travis Head"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Scott Boland",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "James Anderson",
+          "Scott Boland",
+          "Pat Cummins",
+          "Ollie Robinson"
+        ],
+        "num_spin": "12",
+        "m_warnerBroad": "3 - 4",
+        "h2h_catches": "Joe Root",
+        "num_wk": "30",
+        "tons": [
+          "Jonny Bairstow",
+          "Joe Root",
+          "Ollie Pope",
+          "Travis Head",
+          "Steve Smith",
+          "Harry Brook",
+          "Marnus Labuschagne"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Neither"
+      },
+      "id": "8439a797-0f76-488f-b2a4-1fdacd373254",
+      "name": "Matthew"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "LBW",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Rehan Ahmed",
+          "Zak Crawley",
+          "Mitch Marsh"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "Stuart Broad",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "120",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "England",
+        "tf_nighthawk": "true",
+        "m_venues": "Lord's",
+        "tf_woakes": "true",
+        "tf_rootTon": "true",
+        "num_playersTotal": "27",
+        "num_stokesSR": "35",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "200 - 249",
+        "fullStraight": {
+          "engFS": "James Anderson",
+          "ausFS": "Pat Cummins"
+        },
+        "m_afterThree": "2 - 1 Australia",
+        "tf_chase": "false",
+        "tf_decided": "false",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "Steve Smith"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Scott Boland",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "Nathan Lyon",
+          "Pat Cummins",
+          "Ollie Robinson",
+          "James Anderson",
+          "Moeen Ali"
+        ],
+        "num_spin": "40",
+        "m_warnerBroad": "0 - 1",
+        "h2h_catches": "Joe Root",
+        "num_wk": "45",
+        "tons": [
+          "Harry Brook",
+          "Ollie Pope",
+          "Joe Root",
+          "Usman Khawaja",
+          "Marnus Labuschagne",
+          "Steve Smith",
+          "Jonny Bairstow"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Jimmy Anderson"
+      },
+      "id": "88c1ee98-b4e9-4f6e-a4fc-01f45e7e9c48",
+      "name": "Harry"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Bowled",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Moeen Ali",
+          "Zak Crawley",
+          "Usman Khawaja"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "56",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "England",
+        "tf_nighthawk": "false",
+        "m_venues": "Old Trafford",
+        "tf_woakes": "true",
+        "tf_rootTon": "true",
+        "num_playersTotal": "8",
+        "num_stokesSR": "34",
+        "m_camGreen": "Bowling Average",
+        "m_firstInns": "250 - 299",
+        "fullStraight": {
+          "engFS": "James Anderson",
+          "ausFS": "Josh Hazlewood"
+        },
+        "m_afterThree": "2 - 0 Australia",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Jonny Bairstow",
+          "ausSixes": "Cameron Green"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "James Anderson",
+          "Stuart Broad",
+          "Scott Boland",
+          "Josh Hazlewood",
+          "Nathan Lyon"
+        ],
+        "num_spin": "24",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "David Warner",
+        "num_wk": "24",
+        "tons": [
+          "Jonny Bairstow",
+          "Joe Root",
+          "Ben Stokes",
+          "Travis Head",
+          "Steve Smith",
+          "Marnus Labuschagne"
+        ],
+        "tf_bazBall": "false",
+        "m_retirement": "Jimmy Anderson"
+      },
+      "id": "57442a4a-88ce-418a-9b7a-aa807ce3e6b1",
+      "name": "Mark Weatherald"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "false",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Moeen Ali",
+          "Zak Crawley"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "46",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "false",
+        "m_venues": "The Oval",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "29",
+        "num_stokesSR": "98",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "250 - 299",
+        "fullStraight": {
+          "engFS": "Ollie Robinson",
+          "ausFS": "Scott Boland"
+        },
+        "m_afterThree": "1 - 1",
+        "tf_chase": "true",
+        "tf_decided": "false",
+        "bigHitters": {
+          "engSixes": "Jonny Bairstow",
+          "ausSixes": "Cameron Green"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Scott Boland",
+        "h2h_runs_eng": "Harry Brook",
+        "5fers": [
+          "Stuart Broad",
+          "Ollie Robinson",
+          "Scott Boland",
+          "Nathan Lyon",
+          "Pat Cummins"
+        ],
+        "num_spin": "31",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "Joe Root",
+        "num_wk": "28",
+        "tons": [
+          "Ben Duckett",
+          "Travis Head",
+          "Marnus Labuschagne",
+          "Steve Smith",
+          "Joe Root",
+          "Jonny Bairstow",
+          "Usman Khawaja"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Neither"
+      },
+      "id": "6bb44913-a1f4-47ed-913d-1888ebb782b5",
+      "name": "John"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "false",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Marcus Harris",
+          "Will Jacks",
+          "David Warner"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "Stuart Broad",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "52",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "true",
+        "m_venues": "The Oval",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "28",
+        "num_stokesSR": "84.76",
+        "m_camGreen": "Bowling Average",
+        "m_firstInns": "250 - 299",
+        "fullStraight": {
+          "engFS": "Stuart Broad",
+          "ausFS": "Pat Cummins"
+        },
+        "m_afterThree": "1 - 1",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "Travis Head"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "Scott Boland",
+          "Nathan Lyon",
+          "Pat Cummins",
+          "Ben Stokes"
+        ],
+        "num_spin": "76",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "David Warner",
+        "num_wk": "47",
+        "tons": [
+          "Ollie Pope",
+          "Travis Head",
+          "Marnus Labuschagne",
+          "Usman Khawaja",
+          "Steve Smith",
+          "Joe Root",
+          "Harry Brook",
+          "Ben Duckett",
+          "Mitch Marsh"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Neither"
+      },
+      "id": "0554e6f2-d67d-4d33-a8a9-890c88ec8ae9",
+      "name": "Adam"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Zak Crawley",
+          "Alex Carey",
+          "Cameron Green"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "89",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "England",
+        "tf_nighthawk": "true",
+        "m_venues": "The Oval",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "27",
+        "num_stokesSR": "130",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "engFS": "Ollie Robinson",
+          "ausFS": "Pat Cummins"
+        },
+        "m_afterThree": "1 - 1",
+        "tf_chase": "true",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "Travis Head"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "James Anderson",
+          "Ollie Robinson",
+          "Scott Boland",
+          "Pat Cummins",
+          "Nathan Lyon"
+        ],
+        "num_spin": "18",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "Joe Root",
+        "num_wk": "22",
+        "tons": [
+          "Jonny Bairstow",
+          "Ben Duckett",
+          "Joe Root",
+          "Ollie Pope",
+          "Travis Head",
+          "Usman Khawaja",
+          "Steve Smith",
+          "Marnus Labuschagne"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Both"
+      },
+      "id": "4716c922-1221-4d89-ab69-1f81f3cf037f",
+      "name": "Toby Taplin"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Moeen Ali",
+          "Jonny Bairstow",
+          "Usman Khawaja"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "101",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "England",
+        "tf_nighthawk": "false",
+        "m_venues": "Old Trafford",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "29",
+        "num_stokesSR": "95",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "engFS": "James Anderson",
+          "ausFS": "Scott Boland"
+        },
+        "m_afterThree": "2 - 1 England",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Jonny Bairstow",
+          "ausSixes": "Cameron Green"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Scott Boland",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "Stuart Broad",
+          "Ollie Robinson",
+          "Scott Boland",
+          "Nathan Lyon",
+          "Pat Cummins",
+          "James Anderson"
+        ],
+        "num_spin": "28",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "David Warner",
+        "num_wk": "75",
+        "tons": [
+          "Harry Brook",
+          "Ollie Pope",
+          "Joe Root",
+          "Alex Carey",
+          "Travis Head",
+          "Marnus Labuschagne",
+          "Steve Smith",
+          "Jonny Bairstow"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Jimmy Anderson"
+      },
+      "id": "64c6a8e2-e541-4171-8fbb-7fbd3a4999b7",
+      "name": "Fred"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Bowled",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "David Warner",
+          "Ollie Pope",
+          "Moeen Ali"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Marnus Labuschagne",
+        "num_elevenRuns": "38",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "true",
+        "m_venues": "Headingley",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "30",
+        "num_stokesSR": "75",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "200 - 249",
+        "fullStraight": {
+          "engFS": "James Anderson",
+          "ausFS": "Pat Cummins"
+        },
+        "m_afterThree": "2 - 1 England",
+        "tf_chase": "false",
+        "tf_decided": "false",
+        "bigHitters": {
+          "engSixes": "Jonny Bairstow",
+          "ausSixes": "Cameron Green"
+        },
+        "tf_moreThanBurns": "false",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "Ollie Robinson",
+          "Nathan Lyon",
+          "Pat Cummins"
+        ],
+        "num_spin": "25",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "Joe Root",
+        "num_wk": "20",
+        "tons": [
+          "Joe Root",
+          "Marnus Labuschagne",
+          "Steve Smith",
+          "Usman Khawaja",
+          "Cameron Green",
+          "Harry Brook",
+          "Jonny Bairstow"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Neither"
+      },
+      "id": "d5180912-4916-4796-ae98-8b1684bd20fb",
+      "name": "Tom p"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Bowled",
+        "h2h_wickets_pt": "Marnus Labuschagne",
+        "quack": [
+          "Zak Crawley",
+          "Usman Khawaja",
+          "David Warner"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "75",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "true",
+        "m_venues": "The Oval",
+        "tf_woakes": "true",
+        "tf_rootTon": "true",
+        "num_playersTotal": "29",
+        "num_stokesSR": "113.4",
+        "m_camGreen": "Bowling Average",
+        "m_firstInns": "250 - 299",
+        "fullStraight": {
+          "engFS": "Ollie Robinson",
+          "ausFS": "Nathan Lyon"
+        },
+        "m_afterThree": "2 - 1 England",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Jonny Bairstow",
+          "ausSixes": "Mitchell Starc"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Harry Brook",
+        "5fers": [
+          "James Anderson",
+          "Stuart Broad",
+          "Ollie Robinson",
+          "Pat Cummins",
+          "Scott Boland",
+          "Nathan Lyon",
+          "Mitchell Starc"
+        ],
+        "num_spin": "28",
+        "m_warnerBroad": "3 - 4",
+        "h2h_catches": "David Warner",
+        "num_wk": "51",
+        "tons": [
+          "Jonny Bairstow",
+          "Harry Brook",
+          "Ollie Pope",
+          "Joe Root",
+          "Cameron Green",
+          "Travis Head",
+          "Usman Khawaja",
+          "Marnus Labuschagne",
+          "Steve Smith",
+          "Ben Duckett"
+        ],
+        "tf_bazBall": "false",
+        "m_retirement": "Neither"
+      },
+      "id": "f19feaf7-badd-424d-aad1-1c5ed820412b",
+      "name": "Will H"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "false",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Alex Carey",
+          "Moeen Ali",
+          "David Warner"
+        ],
+        "tf_moeen": "true",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Marnus Labuschagne",
+        "num_elevenRuns": "116",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "true",
+        "m_venues": "The Oval",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "29",
+        "num_stokesSR": "88",
+        "m_camGreen": "Bowling Average",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "engFS": "Ollie Robinson",
+          "ausFS": "Mitchell Starc"
+        },
+        "m_afterThree": "2 - 1 England",
+        "tf_chase": "true",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "Travis Head"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "James Anderson",
+          "Ollie Robinson",
+          "Scott Boland",
+          "Pat Cummins",
+          "Nathan Lyon"
+        ],
+        "num_spin": "38",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "Joe Root",
+        "num_wk": "69",
+        "tons": [
+          "Jonny Bairstow",
+          "Zak Crawley",
+          "Ben Duckett",
+          "Travis Head",
+          "Usman Khawaja",
+          "Cameron Green",
+          "Joe Root"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Neither"
+      },
+      "id": "090f5b03-0987-4ea6-86d1-374fa0d6370d",
+      "name": "SW"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Bowled",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Harry Brook",
+          "David Warner",
+          "Zak Crawley"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "100",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "England",
+        "tf_nighthawk": "true",
+        "m_venues": "Lord's",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "28",
+        "num_stokesSR": "26",
+        "m_camGreen": "Bowling Average",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "engFS": "James Anderson",
+          "ausFS": "Pat Cummins"
+        },
+        "m_afterThree": "1 - 1",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Jonny Bairstow",
+          "ausSixes": "Travis Head"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "James Anderson",
+          "Stuart Broad",
+          "Ollie Robinson",
+          "Scott Boland",
+          "Pat Cummins",
+          "Mitchell Starc"
+        ],
+        "num_spin": "30",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "David Warner",
+        "num_wk": "37",
+        "tons": [
+          "Jonny Bairstow",
+          "Ollie Pope",
+          "Joe Root",
+          "Travis Head",
+          "Usman Khawaja",
+          "Marnus Labuschagne",
+          "Steve Smith",
+          "Ben Duckett"
+        ],
+        "tf_bazBall": "true",
+        "m_retirement": "Neither"
+      },
+      "id": "4cc92cfb-cb1b-4f84-a5c1-e2f2e6e58716",
+      "name": "barry nathan"
+    },
+    {
+      "guesses": {
+        "tf_batterDrop": "true",
+        "m_tailenders": "Bowled",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "David Warner",
+          "Jonny Bairstow",
+          "Zak Crawley"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "James Anderson",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "147",
+        "h2h_runs_bowlers": "Nathan Lyon",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "false",
+        "m_venues": "The Oval",
+        "tf_woakes": "false",
+        "tf_rootTon": "true",
+        "num_playersTotal": "30",
+        "num_stokesSR": "86",
+        "m_camGreen": "Bowling Average",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "engFS": "James Anderson",
+          "ausFS": "Scott Boland"
+        },
+        "m_afterThree": "2 - 1 Australia",
+        "tf_chase": "false",
+        "tf_decided": "true",
+        "bigHitters": {
+          "engSixes": "Harry Brook",
+          "ausSixes": "Steve Smith"
+        },
+        "tf_moreThanBurns": "true",
+        "h2h_wickets_aus": "Scott Boland",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "James Anderson",
+          "Ollie Robinson",
+          "Scott Boland",
+          "Nathan Lyon",
+          "Mitchell Starc",
+          "Pat Cummins"
+        ],
+        "num_spin": "27",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "David Warner",
+        "num_wk": "39",
+        "tons": [
+          "Zak Crawley",
+          "Ollie Pope",
+          "Harry Brook",
+          "Joe Root",
+          "Cameron Green",
+          "Usman Khawaja",
+          "Steve Smith",
+          "Marnus Labuschagne",
+          "Travis Head"
+        ],
+        "tf_bazBall": "false",
+        "m_retirement": "Neither"
+      },
+      "id": "1fffacf6-9215-4e61-8a69-ab870df02791",
+      "name": "Jonny"
+    }
+  ]
