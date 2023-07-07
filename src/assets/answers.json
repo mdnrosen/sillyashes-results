@@ -1,10 +1,72 @@
 [
     {
+        "round" : {
+            "name": "Head to Head",
+            "number" : 1
+        },
+        "questionNum" : 1,
         "questionName": "h2h_wickets_eng",
         "answer" : ["Stuart Broad"] 
     },
     {
-        "questionName": "h2h_wickets_eng",
+        "round" : {
+            "name": "Head to Head",
+            "number" : 1
+        },
+        "questionNum" : 2,
+        "questionName": "h2h_wickets_aus",
+        "answer" : ["Pat Cummins"] 
+    },
+    {
+        "round" : {
+            "name": "Head to Head",
+            "number" : 1
+        },
+        "questionNum" : 3,
+        "questionName": "h2h_wickets_pt",
+        "answer" : ["Joe Root"] 
+    },
+    {
+        "round" : {
+            "name": "Head to Head",
+            "number" : 1
+        },
+        "questionNum" : 4,
+        "questionName": "h2h_catches",
+        "answer" : ["Joe Root"] 
+    },
+    {
+        "round" : {
+            "name": "Head to Head",
+            "number" : 1
+        },
+        "questionName": "h2h_runs_eng",
+        "answer" : ["Joe Root"] 
+    },
+    {
+        "round" : {
+            "name": "Head to Head",
+            "number" : 1
+        },
+        "questionName": "h2h_runs_aus",
+        "answer" : ["Steve Smith"] 
+    },
+    {
+        "round" : {
+            "name": "Head to Head",
+            "number" : 1
+        },
+        "questionName": "h2h_runs_bowlers",
         "answer" : ["Stuart Broad"] 
     },
+    {
+        "round" : {
+            "name": "Head to Head",
+            "number" : 1
+        },
+        "questionName": "h2h_reviews",
+        "answer" : ["England"] 
+    }
+
+    
 ]
