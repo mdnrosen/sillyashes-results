@@ -2,6 +2,7 @@ import { Container } from '@mui/material'
 import { BrowserRouter, Routes, Route  } from 'react-router-dom'
 import './App.css'
 
+import { Navbar } from './components/Navbar'
 
 import { Home } from './pages/Home'
 import { Player } from './pages/Player'
@@ -10,12 +11,16 @@ import { Player } from './pages/Player'
 function App() {
 
   return (
-    <Container>
+    <Container disableGutters sx={{ margin: 0 }}>
       <BrowserRouter>
+
+        <Navbar />
+
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/:id' element={<Player />} />
         </Routes>
+
       </BrowserRouter>
     </Container>
   )
