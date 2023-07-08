@@ -3,8 +3,7 @@ import { AppBar, Box, Toolbar } from '@mui/material'
 
 export const Navbar = () => {
     return (
-        <Box>
-            <AppBar position="static" sx={{ boxShadow: 0 }}>
+            <AppBar position="static" sx={{ boxShadow: 'none', bgcolor: 'rgb(0 0 0 / 0%)' }}>
                 <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', bgcolor: "white" }}>
                     <Box
                         component="img"
@@ -14,6 +13,5 @@ export const Navbar = () => {
                     />
                 </Toolbar>
             </AppBar>
-        </Box>
     )
 }
