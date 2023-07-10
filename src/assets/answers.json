@@ -40,6 +40,7 @@
             "name": "Head to Head",
             "number" : 1
         },
+        "questionNum" : 5,
         "questionName": "h2h_runs_eng",
         "answer" : ["Joe Root"] 
     },
@@ -48,6 +49,7 @@
             "name": "Head to Head",
             "number" : 1
         },
+        "questionNum" : 6,
         "questionName": "h2h_runs_aus",
         "answer" : ["Steve Smith"] 
     },
@@ -56,6 +58,7 @@
             "name": "Head to Head",
             "number" : 1
         },
+        "questionNum" : 7,
         "questionName": "h2h_runs_bowlers",
         "answer" : ["Stuart Broad"] 
     },
@@ -64,9 +67,249 @@
             "name": "Head to Head",
             "number" : 1
         },
+        "questionNum" : 8,
         "questionName": "h2h_reviews",
         "answer" : ["England"] 
+    },
+    {
+        "round" : {
+            "name": "Pick Em",
+            "number" : 2
+        },
+        "questionNum" : 9,
+        "questionName": "tons",
+        "answer" : ["Ben Stokes", "Usman Khawja", "Joe Root", "Mitch Marsh"] 
+    },
+    {
+        "round" : {
+            "name": "Pick Em",
+            "number" : 2
+        },
+        "questionNum" : 10,
+        "questionName": "quack",
+        "answer" : ["Cameron Green", "Marnus Labushagne"] 
+    },
+    {
+        "round" : {
+            "name": "Pick Em",
+            "number" : 2
+        },
+        "questionNum" : 11,
+        "questionName": "5fers",
+        "answer" : ["Mark Wood", "Pat Cummins", "Mitchell Starc"] 
+    },
+    {
+        "round" : {
+            "name": "Pick Em",
+            "number" : 2
+        },
+        "questionNum" : 12,
+        "questionName": "bigHitters"
+    },
+    {
+        "round" : {
+            "name": "Pick Em",
+            "number" : 2
+        },
+        "questionNum" : 13,
+        "questionName": "fullStraight"
+    },
+    {
+        "round" : {
+            "name": "Numbers",
+            "number" : 3
+        },
+        "questionNum" : 14,
+        "questionName": "num_playersTotal",
+        "answer" : 28
+    },
+    {
+        "round" : {
+            "name": "Numbers",
+            "number" : 3
+        },
+        "questionNum" : 15,
+        "questionName": "num_wk",
+        "answer" : 42
+    },
+    {
+        "round" : {
+            "name": "Numbers",
+            "number" : 3
+        },
+        "questionNum" : 16,
+        "questionName": "num_stokesSR",
+        "answer" : 68
+    },
+    {
+        "round" : {
+            "name": "Numbers",
+            "number" : 3
+        },
+        "questionNum" : 17,
+        "questionName": "num_spin",
+        "answer" : 33
+    },
+    {
+        "round" : {
+            "name": "Numbers",
+            "number" : 3
+        },
+        "questionNum" : 18,
+        "questionName": "num_elevenRuns",
+        "answer" : 29
+    },
+    {
+        "round" : {
+            "name": "Multis",
+            "number" : 4
+        },
+        "questionNum" : 19,
+        "questionName": "m_warnerBroad",
+        "answer" : "2 - 3"
+    },
+    {
+        "round" : {
+            "name": "Multis",
+            "number" : 4
+        },
+        "questionNum" : 20,
+        "questionName": "m_venues",
+        "answer" : "Edgbaston"
+    },
+    {
+        "round" : {
+            "name": "Multis",
+            "number" : 4
+        },
+        "questionNum" : 21,
+        "questionName": "m_camGreen",
+        "answer" : "Bowling Average"
+    },
+    {
+        "round" : {
+            "name": "Multis",
+            "number" : 4
+        },
+        "questionNum" : 22,
+        "questionName": "m_firstInns",
+        "answer" : "300 - 349"
+    },
+    {
+        "round" : {
+            "name": "Multis",
+            "number" : 4
+        },
+        "questionNum" : 23,
+        "questionName": "m_afterThree",
+        "answer" : "2 - 1 Australia"
+    },
+    {
+        "round" : {
+            "name": "Multis",
+            "number" : 4
+        },
+        "questionNum" : 24,
+        "questionName": "m_tailenders",
+        "answer" : "Caught Outfield"
+    },
+    {
+        "round" : {
+            "name": "Multis",
+            "number" : 4
+        },
+        "questionNum" : 25,
+        "questionName": "m_retirement",
+        "answer" : "Neither"
+    },
+    {
+        "round" : {
+            "name": "True False",
+            "number" : 5
+        },
+        "questionNum" : 26,
+        "questionName": "tf_chase",
+        "answer" : false
+    },
+    {
+        "round" : {
+            "name": "True False",
+            "number" : 5
+        },
+        "questionNum" : 27,
+        "questionName": "tf_woakes",
+        "answer" : true
+    },
+    {
+        "round" : {
+            "name": "True False",
+            "number" : 5
+        },
+        "questionNum" : 28,
+        "questionName": "tf_20wickets",
+        "answer" : false
+    },
+    {
+        "round" : {
+            "name": "True False",
+            "number" : 5
+        },
+        "questionNum" : 29,
+        "questionName": "tf_nighthawk",
+        "answer" : false
+    },
+    {
+        "round" : {
+            "name": "True False",
+            "number" : 5
+        },
+        "questionNum" : 30,
+        "questionName": "tf_batterDrop",
+        "answer" : false
+    },
+    {
+        "round" : {
+            "name": "True False",
+            "number" : 5
+        },
+        "questionNum" : 31,
+        "questionName": "tf_moreThanBurns",
+        "answer" : true
+    },
+    {
+        "round" : {
+            "name": "True False",
+            "number" : 5
+        },
+        "questionNum" : 32,
+        "questionName": "tf_bazBall",
+        "answer" : false
+    },
+    {
+        "round" : {
+            "name": "True False",
+            "number" : 5
+        },
+        "questionNum" : 33,
+        "questionName": "tf_moeen",
+        "answer" : false
+    },
+    {
+        "round" : {
+            "name": "True False",
+            "number" : 5
+        },
+        "questionNum" : 34,
+        "questionName": "tf_rootTon",
+        "answer" : true
+    },
+    {
+        "round" : {
+            "name": "True False",
+            "number" : 5
+        },
+        "questionNum" : 35,
+        "questionName": "tf_decided",
+        "answer" : false
     }
-
-    
 ]
