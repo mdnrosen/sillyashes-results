@@ -1,5 +1,5 @@
 import { Container } from '@mui/material'
-import { BrowserRouter, Routes, Route  } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 
 import { Navbar } from './components/Navbar'
@@ -11,7 +11,7 @@ import { Player } from './pages/Player'
 function App() {
 
   return (
-    <Container disableGutters sx={{ margin: 0 }}>
+    <Container className='app-container' maxWidth='md'>
       <BrowserRouter>
 
         <Navbar />
