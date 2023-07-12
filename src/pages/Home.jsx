@@ -21,7 +21,7 @@ export const Home = () => {
     }
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 2, width: '100%' }}>
         <h3>Silly Ashes - The results</h3>
         {players.map(player => (
             <Link to={`/${player.id}`} key={player.id}>

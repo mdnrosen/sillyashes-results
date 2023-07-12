@@ -4,9 +4,9 @@ import { Box, TextField } from '@mui/material'
 
 export default function Search() {
   return (
-    <Box sx={{ position: 'sticky', top: '5%' }}>
-        <Box sx={{ display: 'table-cell', float: 'right', backgroundColor: 'white', padding: '5px', borderRadius: '5%' }} boxShadow={5}>
-            <TextField id="outlined-basic" label="Username search" variant='outlined' sx={{ display: 'table-row' }}/>
+    <Box sx={{ zIndex: '2000', flexGrow: '1', position: 'fixed', left: { xs: '42.5%', md: '70%', lg: '60%' } }}>
+        <Box sx={{ display: 'flex', backgroundColor: 'white', padding: { xs: '2.5%', md: '1.5%'} }} boxShadow={5}>
+            <TextField id="user-search" label="Search for player" type='search' variant='outlined' size='small' sx={{ backgroundColor: 'white' }}/>
         </Box>
     </Box>
   )
