@@ -1,4 +1,4 @@
-import { Box, Container } from '@mui/material'
+import { Container } from '@mui/material'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 
@@ -6,16 +6,24 @@ import { Navbar } from './components/Navbar'
 
 import { Home } from './pages/Home'
 import { Player } from './pages/Player'
-import Search from './components/Search'
-
+import { useState, useRef, useEffect } from 'react'
 
 function App() {
 
+  const containerRef = useRef()
+  const [containerWidth, setContainerWidth] = useState({ width: 0 })
+
+  useEffect(() => {
+    if(containerRef.current) {
+      setContainerWidth({ width: containerRef.current.offsetWidth})
+    }
+  }, [])
+
+
   return (
-    <Container className='app-container' maxWidth='md' sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
+    <Container className='app-container' id='app-container-id' ref={ containerRef } maxWidth='md' sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', paddingTop: { xs: '54px', md: '64px' } }}>
       <BrowserRouter>
-         <Search />
-        <Navbar />
+        <Navbar containerWidth={containerWidth}/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/:id' element={<Player />} />
