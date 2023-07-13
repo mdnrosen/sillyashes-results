@@ -13,10 +13,15 @@ function App() {
   const containerRef = useRef()
   const [containerWidth, setContainerWidth] = useState({ width: 0 })
 
-  useEffect(() => {
+  const recalculateContainerWidth = () => {
     if(containerRef.current) {
       setContainerWidth({ width: containerRef.current.offsetWidth})
     }
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', recalculateContainerWidth)
+    recalculateContainerWidth()
   }, [])
 
 
