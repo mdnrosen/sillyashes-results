@@ -22,7 +22,5 @@ export const Player = () => {
         <p>{player.score}</p>
 
     </Box>
-
-    // WRITE A JSON OBJECT WITH 5 PLAYERS OF DIFFERENT SCORES OF UPTO 100
   )
 }
