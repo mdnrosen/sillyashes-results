@@ -27,7 +27,7 @@ function App() {
 
 
   return (
-    <Container className='app-container' id='app-container-id' ref={ containerRef } maxWidth='md' sx={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', paddingTop: { xs: '54px', md: '64px' } }}>
+    <Container id='app-container' ref={ containerRef } maxWidth='md'>
       <BrowserRouter>
 
         <Navbar containerWidth={containerWidth}/>

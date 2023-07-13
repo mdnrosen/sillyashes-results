@@ -8,7 +8,7 @@ export const Navbar = props => {
     const calculatedWidth = props.containerWidth - insideMarginPx * 2
 
     return (
-        <AppBar position="fixed" sx={{ left: '50%', transform: 'translateX(-50%)', width: calculatedWidth, marginTop: '8px', borderRadius: '9px' }} >
+        <AppBar position="sticky" sx={{ width: calculatedWidth, marginTop: '8px', borderRadius: '9px', maxHeight: '64px' }} >
             <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', bgcolor: "white", borderRadius: '8px' }}>
                 <Box
                     component="img"
