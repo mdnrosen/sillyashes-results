@@ -229,7 +229,7 @@
         },
         "questionNum" : 26,
         "questionName": "tf_chase",
-        "answer" : false
+        "answer" : "false"
     },
     {
         "round" : {
@@ -238,7 +238,7 @@
         },
         "questionNum" : 27,
         "questionName": "tf_woakes",
-        "answer" : true
+        "answer" : "true"
     },
     {
         "round" : {
@@ -247,7 +247,7 @@
         },
         "questionNum" : 28,
         "questionName": "tf_20wickets",
-        "answer" : false
+        "answer" : "false"
     },
     {
         "round" : {
@@ -256,7 +256,7 @@
         },
         "questionNum" : 29,
         "questionName": "tf_nighthawk",
-        "answer" : false
+        "answer" : "false"
     },
     {
         "round" : {
@@ -265,7 +265,7 @@
         },
         "questionNum" : 30,
         "questionName": "tf_batterDrop",
-        "answer" : false
+        "answer" : "false"
     },
     {
         "round" : {
@@ -274,7 +274,7 @@
         },
         "questionNum" : 31,
         "questionName": "tf_moreThanBurns",
-        "answer" : true
+        "answer" : "true"
     },
     {
         "round" : {
@@ -283,7 +283,7 @@
         },
         "questionNum" : 32,
         "questionName": "tf_bazBall",
-        "answer" : false
+        "answer" : "false"
     },
     {
         "round" : {
@@ -292,7 +292,7 @@
         },
         "questionNum" : 33,
         "questionName": "tf_moeen",
-        "answer" : false
+        "answer" : "false"
     },
     {
         "round" : {
@@ -301,7 +301,7 @@
         },
         "questionNum" : 34,
         "questionName": "tf_rootTon",
-        "answer" : true
+        "answer" : "true"
     },
     {
         "round" : {
@@ -310,6 +310,6 @@
         },
         "questionNum" : 35,
         "questionName": "tf_decided",
-        "answer" : false
+        "answer" : "false"
     }
 ]
