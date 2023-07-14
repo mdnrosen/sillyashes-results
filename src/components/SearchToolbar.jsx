@@ -10,10 +10,12 @@ export const SearchToolbar = () => {
             <Toolbar display={'flex'} sx={{ width: { xs: '100%', md: 'auto' }, justifyContent: 'center' }}>
                 <TextField
                     id="user-search"
-                    label="Search for name"
+                    label="Search by name"
+                    placeholder='Jason Objects'
                     type='search'
                     variant='outlined'
                     size='small'
+                    color='success'
                     sx={{ backgroundColor: 'white' }}
                 />
             </Toolbar>

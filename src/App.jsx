@@ -1,5 +1,3 @@
-import { useState, useRef, useEffect } from 'react'
-
 import { Container } from '@mui/material'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
