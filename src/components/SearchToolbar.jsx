@@ -1,18 +1,24 @@
 import React, { useState } from 'react'
 
-import data from '../assets/dummyData.json'
+import { useNavigate } from 'react-router-dom'
+
+// TODO remove once GET requests set up in App.jsx
+import data from '../assets/dummyData.json' // for working version: will be replaced by prop as below
 
 import { AppBar, Autocomplete, IconButton, Stack, TextField, Toolbar } from '@mui/material'
 import SearchIcon from "@mui/icons-material/Search"
 
 
-export const SearchToolbar = () => {
+export const SearchToolbar = (/* prop from App.jsx */) => {
 
-    const [playerSelected, setPlayerSelected] = useState({})
+    const navigateTo = useNavigate()
+
+    const [playerOptionSelected, setPlayerOptionSelected] = useState({})
 
     const submitHandler = e => {
         e.preventDefault()
-        console.log('SUBMITTED:', playerSelected)
+        const playerSelected = data.filter(player => player.name === playerOptionSelected)[0]
+        navigateTo(`/${playerSelected.id}`)
     }
 
     return (
@@ -21,7 +27,7 @@ export const SearchToolbar = () => {
                 <form style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
                     <Stack width={{ xs: 1, md: '50%' }} maxWidth={'370px'}>
                         <Autocomplete
-                            onChange={(e, value) => setPlayerSelected(value)}
+                            onChange={(e, value) => setPlayerOptionSelected(value)}
                             id="user-search"
                             options={data.map((option) => option.name)}
                             renderInput={(params) =>

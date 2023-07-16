@@ -20,7 +20,7 @@ function App() {
         <Header />
         <SearchToolbar />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route exact path='/' element={<Home />} />
           <Route path='/:id' element={<Player />} />
         </Routes>
 
