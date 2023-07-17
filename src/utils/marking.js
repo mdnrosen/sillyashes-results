@@ -10,7 +10,7 @@ const between = (x, min, max) => x >= min && x <= max
 const addPerc = (x, perc) => x * (1 + perc)
 const minusPerc = (x, perc) => x * (1 - perc)
 
-const markAll = (person) => {
+export const markAll = (person) => {
     const marking_simple = (answers) => {
         const { guesses } = person;
         const result = answers.map(ans => {
@@ -103,63 +103,42 @@ const markAll = (person) => {
 
 
 
-const marking_numbers = (answers) => {
-    const { guesses } = person;
-    const result = answers.map(ans => {
-        let points = 0
-        const { answer, questionName, questionNum, round } = ans
+    const marking_numbers = (answers) => {
+        const { guesses } = person;
+        const result = answers.map(ans => {
+            let points = 0
+            const { answer, questionName, questionNum, round } = ans
 
-        const guessed = parseInt(guesses[questionName])
-        if (between(guessed, minusPerc(answer, 0.15), addPerc(answer, 0.15))) {
-            points = 1
-        }
-        if (between(guessed, minusPerc(answer, 0.1), addPerc(answer, 0.1))) {
-            points = 3
-        }
-        if (between(guessed, minusPerc(answer, 0.05), addPerc(answer, 0.05))) {
-            points = 5
-        }
+            const guessed = parseInt(guesses[questionName])
+            if (between(guessed, minusPerc(answer, 0.15), addPerc(answer, 0.15))) {
+                points = 1
+            }
+            if (between(guessed, minusPerc(answer, 0.1), addPerc(answer, 0.1))) {
+                points = 3
+            }
+            if (between(guessed, minusPerc(answer, 0.05), addPerc(answer, 0.05))) {
+                points = 5
+            }
 
-        return {
-            roundNumber: round.number,
-            roundName: round.name,
-            questionNumber: questionNum,
-            questionName: questionName,
-            guessed: guesses[questionName],
-            correctAnswer: answer,
-            points
-        }
-    })
-    return result
+            return {
+                roundNumber: round.number,
+                roundName: round.name,
+                questionNumber: questionNum,
+                questionName: questionName,
+                guessed: guesses[questionName],
+                correctAnswer: answer,
+                points
+            }
+        })
+        return result
+    }
+    return [
+        ...marking_simple(answers.filter(a => a.round.number === 1), person),
+        ...marking_pickem(answers.filter(a => a.round.number === 2), person),
+        ...marking_numbers(answers.filter(a => a.round.number === 3), person),
+        ...marking_simple(answers.filter(a => a.round.number === 4), person),
+        ...marking_simple(answers.filter(a => a.round.number === 5), person),
+    ]
 }
 
-
-
-
-
-
-const results = [
-    ...marking_simple(answers.filter(a => a.round.number === 1), person),
-    ...marking_pickem(answers.filter(a => a.round.number === 2), person),
-    ...marking_numbers(answers.filter(a => a.round.number === 3), person),
-    ...marking_simple(answers.filter(a => a.round.number === 4), person),
-    ...marking_simple(answers.filter(a => a.round.number === 5), person),
-]
-
-return results;
-
-}
-
-
-const marked = markAll(people[22])
-
-console.log(marked)
-setTimeout(() => {
-    const finalScore = marked.reduce((a, { points }) => a + points)
-    console.log(person[22], '-->', finalScore)
-
-},1000)
-
-
-export default markAll
 
