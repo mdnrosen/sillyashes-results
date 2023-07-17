@@ -9,10 +9,11 @@ import { SearchToolbar } from './components/SearchToolbar'
 
 import { Home } from './pages/Home'
 import { Player } from './pages/Player'
+import { TutorialSearchFilter } from './components/TutorialSearchFilter'
+
 
 
 function App() {
-  console.log(results)
   return (
     <Container id='app-container' maxWidth='md'>
       <BrowserRouter>
@@ -20,7 +21,8 @@ function App() {
         <Header />
         <SearchToolbar />
         <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/tutorialSearch' element={<TutorialSearchFilter />} />
           <Route path='/:id' element={<Player />} />
         </Routes>
 
