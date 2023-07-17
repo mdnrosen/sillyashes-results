@@ -8,7 +8,6 @@ import { Header } from './components/Header'
 
 import { Home } from './pages/Home'
 import { Player } from './pages/Player'
-import { TutorialSearchFilter } from './components/TutorialSearchFilter'
 
 
 
@@ -20,7 +19,6 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/tutorialSearch' element={<TutorialSearchFilter />} />
           <Route path='/:id' element={<Player />} />
         </Routes>
 

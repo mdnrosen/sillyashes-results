@@ -4,6 +4,6 @@
     border-left: 5px solid rgb(21, 41, 94);
     border-right: 5px solid rgb(0, 132, 61);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
