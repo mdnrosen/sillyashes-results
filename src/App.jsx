@@ -5,7 +5,6 @@ import './App.css'
 import results from './utils/marking'
 
 import { Header } from './components/Header'
-import { SearchToolbar } from './components/SearchToolbar'
 
 import { Home } from './pages/Home'
 import { Player } from './pages/Player'
@@ -19,7 +18,6 @@ function App() {
       <BrowserRouter>
 
         <Header />
-        <SearchToolbar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/tutorialSearch' element={<TutorialSearchFilter />} />

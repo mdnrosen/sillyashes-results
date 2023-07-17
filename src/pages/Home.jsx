@@ -4,16 +4,27 @@ import { Box } from '@mui/material'
 import data from '../assets/dummyData.json'
 import { Link } from 'react-router-dom'
 
+import { SearchToolbar } from '../components/SearchToolbar'
+
 
 export const Home = () => {
 
     const [ players, setPlayers ] = useState(null)
-
+    const [ search, setSearch ] = useState('')
 
     useEffect(() => {
         setPlayers(data)
     },[])
 
+    const filterPlayers = () => {
+        const regexp = new RegExp(search, 'i')
+        return players.filter(player => regexp.test(player.name))
+    }
+
+    const searchChangeHandler = textAreaInput => {
+        console.log(textAreaInput)
+        // setSearch(textAreaInput)
+    }
 
     if (!players) {
         return <p>Loading...</p>
@@ -22,6 +33,7 @@ export const Home = () => {
 
   return (
     <Box sx={{ flexGrow: 2, width: '100%' }}>
+        <SearchToolbar searchChangeHandler={searchChangeHandler} />
         <h3>Silly Ashes - The results</h3>
         {players.map(player => (
             <Link to={`/${player.id}`} key={player.id}>
