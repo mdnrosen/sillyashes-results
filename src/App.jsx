@@ -8,7 +8,6 @@ import { Player } from './pages/Player'
 
 
 function App() {
-  console.log(results)
   return (
     <Container className='app-container' maxWidth='md'>
       <BrowserRouter>
