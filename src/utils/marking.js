@@ -1,13 +1,9 @@
 
 import people from '../assets/dump.json'
 import answers from '../assets/answers.json'
-const person = people[2]
+import sixes from '../assets/sixesData.json'
+import fullStraight from '../assets/fullStraightData.json'
 
-
-// The 'SIMPLE' rounds are:
-// 1 (Head to Head)
-// 4 Multis
-// 5 True / false
 
 
 const between = (x, min, max) => x >= min && x <= max
@@ -15,7 +11,6 @@ const addPerc = (x, perc) => x * (1 + perc)
 const minusPerc = (x, perc) => x * (1 - perc)
 
 const markAll = (person) => {
-    
     const marking_simple = (answers) => {
         const { guesses } = person;
         const result = answers.map(ans => {
@@ -40,28 +35,70 @@ const markAll = (person) => {
     const marking_pickem = (answers) => {
         const { guesses } = person;
         const result = answers.map(ans => {
+            let points = 0
             const { answer, questionName, questionNum, round } = ans
+            const guessed = guesses[questionName]
             if (questionName === 'tons' || questionName === '5fers') {
-                const correct = answer.filter(a => guesses[questionName].includes(a))
-                const wrong = answer.filter(a => !guesses[questionName].includes(a))
 
-                // ITEMS THAT APPEAR IN THE ANSWER BUT NOT IN THE GUESS
-                const missed = answer.filter(a => !guesses[questionName])
+                const correct = guesses[questionName].filter(g => answer.includes(g))
+                points+= correct.length * 5
 
+                const wrong = guesses[questionName].filter(g => !answer.includes(g))
+                points-= wrong.length * 3
+
+                const missed = answer.filter(a => !guesses[questionName].includes(a))
+                points-= missed.length * 3
                 
+    
+                return {
+                    roundNumber: round.number,
+                    roundName: round.name,
+                    questionNumber: questionNum,
+                    questionName: questionName,
+                    guessed, guessed,
+                    correctAnswer: answer,
+                    points,
+                    correct,
+                    wrong,
+                    missed
+                }
+            } else if (questionName === 'quack') {
+
+                const matches = guesses[questionName].filter(g => answer.includes(g))
+                // HANDLE QUACK
+                return {
+                    roundNumber: round.number,
+                    roundName: round.name,
+                    questionNumber: questionNum,
+                    questionName: questionName,
+                    guessed,
+                    correctAnswer: answer,
+                    points: matches.length * 3,
+          
+                }
+            } else {
+
+                let data = questionName === 'bigHitters' ? sixes : fullStraight
+                const vals = Object.values(guessed)
+                const picks = data.filter(d => vals.includes(d.player))
+
                 let points = 0
-                const guessed = guesses[questionName]
-                console.log(questionName)
-                console.log('Guessed ->', guessed)
-                console.log('Answer ->', answer)
-                console.log('CORRECT ->', correct)
-                console.log('WRONG ->', wrong)
-                console.log('MISSED ->', missed)
-                // we'll do something different here
-                return
+                picks.forEach(p => {
+                    points+= p.num * 2
+                })
+
+                return {
+                    roundNumber: round.number,
+                    roundName: round.name,
+                    questionNumber: questionNum,
+                    questionName: questionName,
+                    guessed: picks,
+                    correctAnswer: answer,
+                    points
+                }
             }
         })
-        return []
+        return result
     }
 
 
@@ -102,18 +139,26 @@ const marking_numbers = (answers) => {
 
 
 const results = [
-    // ...marking_simple(answers.filter(a => a.round.number === 1), person),
+    ...marking_simple(answers.filter(a => a.round.number === 1), person),
     ...marking_pickem(answers.filter(a => a.round.number === 2), person),
-    // ...marking_numbers(answers.filter(a => a.round.number === 3), person),
-    // ...marking_simple(answers.filter(a => a.round.number === 4), person),
-    // ...marking_simple(answers.filter(a => a.round.number === 5), person),
+    ...marking_numbers(answers.filter(a => a.round.number === 3), person),
+    ...marking_simple(answers.filter(a => a.round.number === 4), person),
+    ...marking_simple(answers.filter(a => a.round.number === 5), person),
 ]
 
-    return results;
+return results;
 
 }
 
-console.log(markAll(people[13]))
+
+const marked = markAll(people[22])
+
+console.log(marked)
+setTimeout(() => {
+    const finalScore = marked.reduce((a, { points }) => a + points)
+    console.log(person[22], '-->', finalScore)
+
+},1000)
 
 
 export default markAll
