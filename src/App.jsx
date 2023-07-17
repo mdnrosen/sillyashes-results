@@ -5,6 +5,8 @@ import { Navbar } from './components/Navbar'
 import results from './utils/marking'
 import { Home } from './pages/Home'
 import { Player } from './pages/Player'
+import { TutorialSearchFilter } from './components/TutorialSearchFilter'
+
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
 
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/tutorialSearch' element={<TutorialSearchFilter />} />
           <Route path='/:id' element={<Player />} />
         </Routes>
 
