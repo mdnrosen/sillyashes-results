@@ -10,7 +10,7 @@ const between = (x, min, max) => x >= min && x <= max
 const addPerc = (x, perc) => x * (1 + perc)
 const minusPerc = (x, perc) => x * (1 - perc)
 
-export const markAll = (person) => {
+const markAll = (person) => {
     const marking_simple = (answers) => {
         const { guesses } = person;
         const result = answers.map(ans => {
@@ -142,3 +142,6 @@ export const markAll = (person) => {
 }
 
 
+
+
+export default markAll
