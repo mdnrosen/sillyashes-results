@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { Box } from '@mui/material'
 
@@ -6,18 +6,15 @@ import data from '../assets/dummyData.json'
 import dump from '../assets/dump.json'
 import { SearchToolbar } from '../components/SearchToolbar'
 import markAll from '../utils/marking'
+import { PeopleContext } from '../App'
 
 
 export const Home = () => {
 
-    const [players, setPlayers] = useState(null)
-    const [ marked, setMarked ] = useState([])
+    const players = useContext(PeopleContext)
+
     const [search, setSearch] = useState('')
 
-    useEffect(() => {
-        setPlayers(data)
-        setMarked(dump.map(p => markAll(p)))
-    }, [])
 
     const filterPlayers = () => {
         const regexp = new RegExp(search, 'i')
@@ -28,7 +25,7 @@ export const Home = () => {
         setSearch(textAreaInput)
     }
 
-    if (!players) {
+    if (!players.length) {
         return <p>Loading...</p>
     }
 

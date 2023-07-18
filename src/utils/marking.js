@@ -143,6 +143,7 @@ const markAll = (person) => {
         ...marking_simple(answers.filter(a => a.round.number === 5), person),
     ]
     const totalScore = marked.reduce((a, { points }) => a + points, 0)
+    
     return {
         id: person.id,
         name: person.name,
