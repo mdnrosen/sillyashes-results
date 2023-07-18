@@ -69,7 +69,7 @@
         },
         "questionNum" : 8,
         "questionName": "h2h_reviews",
-        "answer" : ["England"] 
+        "answer" : ["England", "Australia"] 
     },
     {
         "round" : {
@@ -78,7 +78,7 @@
         },
         "questionNum" : 9,
         "questionName": "tons",
-        "answer" : ["Ben Stokes", "Usman Khawja", "Joe Root", "Mitch Marsh"] 
+        "answer" : ["Ben Stokes", "Usman Khawaja", "Joe Root", "Mitch Marsh", "Steve Smith"] 
     },
     {
         "round" : {
@@ -87,7 +87,7 @@
         },
         "questionNum" : 10,
         "questionName": "quack",
-        "answer" : ["Cameron Green", "Marnus Labushagne"] 
+        "answer" : ["Cameron Green", "Marnus Labuschagne"] 
     },
     {
         "round" : {
@@ -184,7 +184,7 @@
         },
         "questionNum" : 21,
         "questionName": "m_camGreen",
-        "answer" : "Bowling Average"
+        "answer" : "Batting Average"
     },
     {
         "round" : {
@@ -274,7 +274,7 @@
         },
         "questionNum" : 31,
         "questionName": "tf_moreThanBurns",
-        "answer" : "true"
+        "answer" : "false"
     },
     {
         "round" : {
