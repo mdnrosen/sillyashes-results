@@ -9,7 +9,6 @@ import fullStraight from '../assets/fullStraightData.json'
 const between = (x, min, max) => x >= min && x <= max
 const addPerc = (x, perc) => x * (1 + perc)
 const minusPerc = (x, perc) => x * (1 - perc)
-
 const markAll = (person) => {
     const marking_simple = (answers) => {
         const { guesses } = person;
@@ -49,7 +48,7 @@ const markAll = (person) => {
                 const missed = answer.filter(a => !guesses[questionName].includes(a))
                 points-= missed.length * 3
                 
-    
+
                 return {
                     roundNumber: round.number,
                     roundName: round.name,
@@ -66,6 +65,8 @@ const markAll = (person) => {
 
                 const matches = guesses[questionName].filter(g => answer.includes(g))
                 // HANDLE QUACK
+
+                const points = matches.length * 3
                 return {
                     roundNumber: round.number,
                     roundName: round.name,
@@ -73,7 +74,7 @@ const markAll = (person) => {
                     questionName: questionName,
                     guessed,
                     correctAnswer: answer,
-                    points: matches.length * 3,
+                    points,
           
                 }
             } else {
@@ -87,13 +88,13 @@ const markAll = (person) => {
                     points+= p.num * 2
                 })
 
+
                 return {
                     roundNumber: round.number,
                     roundName: round.name,
                     questionNumber: questionNum,
                     questionName: questionName,
                     guessed: picks,
-                    correctAnswer: answer,
                     points
                 }
             }
@@ -120,6 +121,7 @@ const markAll = (person) => {
                 points = 5
             }
 
+
             return {
                 roundNumber: round.number,
                 roundName: round.name,
@@ -132,13 +134,22 @@ const markAll = (person) => {
         })
         return result
     }
-    return [
+
+    const marked = [
         ...marking_simple(answers.filter(a => a.round.number === 1), person),
         ...marking_pickem(answers.filter(a => a.round.number === 2), person),
         ...marking_numbers(answers.filter(a => a.round.number === 3), person),
         ...marking_simple(answers.filter(a => a.round.number === 4), person),
         ...marking_simple(answers.filter(a => a.round.number === 5), person),
     ]
+    const totalScore = marked.reduce((a, { points }) => a + points, 0)
+    return {
+        id: person.id,
+        name: person.name,
+        percent: totalScore / 125, // arbitary number for now
+        results: marked,
+        totalScore
+    }
 }
 
 
