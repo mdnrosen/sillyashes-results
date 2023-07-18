@@ -3,9 +3,10 @@ import { createTheme } from "@mui/material"
 const theme = createTheme()
 
 theme.typography.h3 = {
-    fontSize: '0.85rem',
+    fontSize: '0.8rem',
     '@media (min-width:900px)': {
-        fontSize: '2rem',
+        fontSize: '1rem',
+        paddingTop: '0.155rem'
     },
     fontFamily: ['Inter','sans-serif'].join(','),
     fontWeight: 'normal'

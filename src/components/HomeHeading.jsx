@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, ThemeProvider, Typography } from '@mui/material'
-import theme from '../assets/theme'
+import theme from '../configs/theme'
 
 
 export const HomeHeading = () => {
