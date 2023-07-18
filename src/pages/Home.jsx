@@ -36,9 +36,10 @@ export const Home = () => {
     return (
         <Box sx={{ height: '100%', width: '100%' }}>
 
+            <HomeHeading />
+
             <SearchToolbar searchChangeHandler={searchChangeHandler} />
 
-            <HomeHeading />
 
             {filterPlayers().map(player => (
                 <Link to={`/${player.id}`} key={player.id}>

@@ -7,29 +7,29 @@ export const HomeHeading = () => {
     const theme = createTheme()
 
     theme.typography.h3 = {
-        fontSize: '1.2rem',
+        fontSize: '1rem',
         '@media (min-width:600px)': {
-            fontSize: '2.4rem',
+            fontSize: '2rem',
         },
-        fontFamily: 'sans-serif',
+        fontFamily: ['Inter','sans-serif'].join(','),
         fontWeight: 'normal'
     }
 
 
     return (
-        <Box padding={2}>
+        <Box padding={1}>
             <ThemeProvider theme={theme}>
                 <Typography
                     textAlign={'center'}
-                    marginTop={1}
                     variant='h3'
+                    gutterBottom
                     sx={{
                         background: '-webkit-linear-gradient(right, #95ce39, #5fa92b, #337636, #4aa227)',
                         WebkitBackgroundClip: 'text',
                         WebkitTextFillColor: 'transparent'
                     }}
                 >
-                    SILLY ASHES - THE RESULTS
+                    THE RESULTS
                 </Typography>
             </ThemeProvider>
         </Box>
