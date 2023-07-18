@@ -26,7 +26,8 @@ export const HomeHeading = () => {
                     sx={{
                         background: '-webkit-linear-gradient(right, #95ce39, #5fa92b, #337636, #4aa227)',
                         WebkitBackgroundClip: 'text',
-                        WebkitTextFillColor: 'transparent'
+                        WebkitTextFillColor: 'transparent',
+                        filter: { xs: 'blur(0.15px)', sm: '0.25px', md: '0.33px'}
                     }}
                 >
                     THE RESULTS
