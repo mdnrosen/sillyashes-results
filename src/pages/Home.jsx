@@ -34,7 +34,6 @@ export const Home = () => {
 
             <SearchToolbar searchChangeHandler={searchChangeHandler} />
 
-            <h3>Silly Ashes - The results</h3>
 
             {filterPlayers().map(player => (
                 <Link to={`/${player.id}`} key={player.id}>
