@@ -1,14 +1,16 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import { Box } from '@mui/material'
 import { Link, useParams } from 'react-router-dom'
 import data from '../assets/dummyData.json'
+import { PeopleContext } from '../App'
 
 export const Player = () => {
+  const people = useContext(PeopleContext)
     const params = useParams()
     const [ player, setPlayer ] = useState(null)
 
     useEffect(() => {
-        setPlayer(data.find(player => player.id === params.id))
+        setPlayer(people.find(p => p.id === params.id))
     },[])
 
     if (!player) {

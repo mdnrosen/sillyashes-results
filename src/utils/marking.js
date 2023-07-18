@@ -5,7 +5,6 @@ import sixes from '../assets/sixesData.json'
 import fullStraight from '../assets/fullStraightData.json'
 
 
-
 const between = (x, min, max) => x >= min && x <= max
 const addPerc = (x, perc) => x * (1 + perc)
 const minusPerc = (x, perc) => x * (1 - perc)
@@ -143,10 +142,11 @@ const markAll = (person) => {
         ...marking_simple(answers.filter(a => a.round.number === 5), person),
     ]
     const totalScore = marked.reduce((a, { points }) => a + points, 0)
+
     return {
         id: person.id,
         name: person.name,
-        percent: totalScore / 125, // arbitary number for now
+        percent: ((totalScore / 247) * 100).toFixed(0), // arbitary number for now
         results: marked,
         totalScore
     }
