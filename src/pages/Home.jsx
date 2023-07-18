@@ -5,6 +5,7 @@ import { Box } from '@mui/material'
 import data from '../assets/dummyData.json'
 import dump from '../assets/dump.json'
 import { SearchToolbar } from '../components/SearchToolbar'
+import { HomeHeading } from '../components/HomeHeading'
 import markAll from '../utils/marking'
 
 
@@ -37,7 +38,7 @@ export const Home = () => {
 
             <SearchToolbar searchChangeHandler={searchChangeHandler} />
 
-            <h3>Silly Ashes - The results</h3>
+            <HomeHeading />
 
             {filterPlayers().map(player => (
                 <Link to={`/${player.id}`} key={player.id}>
