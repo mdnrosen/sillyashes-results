@@ -1,19 +1,9 @@
 import React from 'react'
-import { Box, createTheme, ThemeProvider, Typography } from '@mui/material'
+import { Box, ThemeProvider, Typography } from '@mui/material'
+import theme from '../assets/theme'
 
 
 export const HomeHeading = () => {
-
-    const theme = createTheme()
-
-    theme.typography.h3 = {
-        fontSize: '0.85rem',
-        '@media (min-width:900px)': {
-            fontSize: '2rem',
-        },
-        fontFamily: ['Inter','sans-serif'].join(','),
-        fontWeight: 'normal'
-    }
 
 
     return (
