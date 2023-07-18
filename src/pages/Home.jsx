@@ -38,11 +38,26 @@ export const Home = () => {
 
             {filterPlayers().map(player => (
                 <Link to={`/${player.id}`} key={player.id}>
-                    <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', p: 2, m: 2, border: '1px solid #ccc', textDecoration: 'none', color: 'inherit' }}>
-                        <h4>{player.position}</h4>
-                        <h4>{player.name}</h4>
-                        <p>{player.totalScore}</p>
-                        <p>{player.percent}%</p>
+                    <Box
+                        boxShadow={2}
+                        sx={{
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            p: 2,
+                            m: 2,
+                            border: '1px solid #ccc',
+                            borderRadius: '0.5rem',
+                            textDecoration: 'none',
+                            color: 'inherit'
+                        }}
+                    >
+                        <Box sx={{ width: '100%', maxWidth: '600px', display: 'inherit', justifyContent: 'space-between', alignItems: 'inherit' }}>
+                            <h4>{player.position}</h4>
+                            <h4>{player.name}</h4>
+                            <p>{player.totalScore}</p>
+                            <p>{player.percent}%</p>
+                        </Box>
                     </Box>
                 </Link>
             ))}
