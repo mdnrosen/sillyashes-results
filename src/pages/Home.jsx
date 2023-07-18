@@ -5,7 +5,6 @@ import { Box } from '@mui/material'
 import data from '../assets/dummyData.json'
 import dump from '../assets/dump.json'
 import { SearchToolbar } from '../components/SearchToolbar'
-import { HomeHeading } from '../components/HomeHeading'
 import markAll from '../utils/marking'
 
 
@@ -35,8 +34,6 @@ export const Home = () => {
 
     return (
         <Box sx={{ height: '100%', width: '100%' }}>
-
-            <HomeHeading />
 
             <SearchToolbar searchChangeHandler={searchChangeHandler} />
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box } from '@mui/material'
 import { Link } from 'react-router-dom'
+import { HomeHeading } from './HomeHeading'
 
 
 export const Header = () => {
@@ -9,8 +10,9 @@ export const Header = () => {
             width: '100%',
             display: 'flex',
             flexWrap: 'wrap',
-            flexDirection: 'column',
-            justifyContent: 'space-between'
+            flexDirection: 'row',
+            justifyContent: { xs: 'left', md: 'space-between' },
+            alignItems: 'center'
         }}>
             <Box display={'flex'} justifyContent={'center'}>
                 <Link to={'/'}>
@@ -22,6 +24,7 @@ export const Header = () => {
                     />
                 </Link>
             </Box>
+            <HomeHeading />
         </Box >
     )
 }

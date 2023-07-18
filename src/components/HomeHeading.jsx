@@ -7,8 +7,8 @@ export const HomeHeading = () => {
     const theme = createTheme()
 
     theme.typography.h3 = {
-        fontSize: '1rem',
-        '@media (min-width:600px)': {
+        fontSize: '0.85rem',
+        '@media (min-width:900px)': {
             fontSize: '2rem',
         },
         fontFamily: ['Inter','sans-serif'].join(','),
