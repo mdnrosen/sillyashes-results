@@ -4,6 +4,7 @@ import { Box, ThemeProvider, Typography } from '@mui/material'
 
 import data from '../assets/dummyData.json'
 import dump from '../assets/dump.json'
+import { Percentage } from '../components/Percentage'
 import { SearchToolbar } from '../components/SearchToolbar'
 import markAll from '../utils/marking'
 import { posSfx } from '../utils/helpers'
@@ -58,7 +59,7 @@ export const Home = () => {
                                 <Typography variant='h6' color={'textPrimary'} sx={{ width: '25%', textAlign: 'left'}}>{posSfx(player.position)}</Typography>
                                 <Typography variant='h6' color={'textPrimary'} sx={{ width: '40%', textAlign: 'left'}}>{player.name}</Typography>
                                 <Typography variant='h5' color={'textPrimary'} sx={{ width: '10%', textAlign: 'left'}}>{player.totalScore}</Typography>
-                                <Typography sx={{ width: '25%', textAlign: 'right'}}>{player.percent}%</Typography>
+                                <Percentage percent={player.percent} />
                             </ThemeProvider>
                         </Box>
                     </Box>
