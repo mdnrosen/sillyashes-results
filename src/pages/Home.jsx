@@ -6,6 +6,7 @@ import data from '../assets/dummyData.json'
 import dump from '../assets/dump.json'
 import { SearchToolbar } from '../components/SearchToolbar'
 import markAll from '../utils/marking'
+import { posSfx } from '../utils/helpers'
 import { PeopleContext } from '../App'
 
 
@@ -53,7 +54,7 @@ export const Home = () => {
                         }}
                     >
                         <Box sx={{ width: '100%', maxWidth: '600px', display: 'inherit', justifyContent: 'space-between', alignItems: 'inherit' }}>
-                            <h4>{player.position}</h4>
+                            <h4>{posSfx(player.position)}</h4>
                             <h4>{player.name}</h4>
                             <p>{player.totalScore}</p>
                             <p>{player.percent}%</p>
