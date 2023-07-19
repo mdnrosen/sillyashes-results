@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Box } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 
 import './percentage.css'
 
@@ -22,6 +22,16 @@ export const Percentage = props => {
                     strokeDasharray={`${percentageFull}, 100`}
                 />
             </svg>
+            <Box position={'relative'}>
+                <Typography
+                    sx={{
+                        position: 'absolute',
+                        top: '50%',
+                        left: '50%',
+                        transform: 'translate(-50%, -185%)' // bodge here - works on screens > 800px wide but begins to overlap when smaller
+                    }}
+                >{percentageFull}%</Typography>
+            </Box>
         </Box>
     )
 }
