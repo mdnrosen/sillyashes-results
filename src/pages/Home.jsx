@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react'
 import { Link } from 'react-router-dom'
-import { Box } from '@mui/material'
+import { Box, ThemeProvider, Typography } from '@mui/material'
 
 import data from '../assets/dummyData.json'
 import dump from '../assets/dump.json'
@@ -8,6 +8,7 @@ import { SearchToolbar } from '../components/SearchToolbar'
 import markAll from '../utils/marking'
 import { posSfx } from '../utils/helpers'
 import { PeopleContext } from '../App'
+import theme from '../configs/theme'
 
 
 export const Home = () => {
@@ -27,7 +28,7 @@ export const Home = () => {
     }
 
     if (!players.length) {
-        return <p>Loading...</p>
+        return <Typography>Loading...</Typography>
     }
 
     return (
@@ -53,10 +54,12 @@ export const Home = () => {
                         }}
                     >
                         <Box sx={{ width: '100%', maxWidth: '600px', display: 'inherit', justifyContent: 'space-between', alignItems: 'inherit' }}>
-                            <h4>{posSfx(player.position)}</h4>
-                            <h4>{player.name}</h4>
-                            <p>{player.totalScore}</p>
-                            <p>{player.percent}%</p>
+                            <ThemeProvider theme={theme}>
+                                <Typography variant='h6' color={'textPrimary'} sx={{ width: '25%', textAlign: 'left'}}>{posSfx(player.position)}</Typography>
+                                <Typography variant='h6' color={'textPrimary'} sx={{ width: '40%', textAlign: 'left'}}>{player.name}</Typography>
+                                <Typography variant='h5' color={'textPrimary'} sx={{ width: '10%', textAlign: 'left'}}>{player.totalScore}</Typography>
+                                <Typography sx={{ width: '25%', textAlign: 'right'}}>{player.percent}%</Typography>
+                            </ThemeProvider>
                         </Box>
                     </Box>
                 </Link>

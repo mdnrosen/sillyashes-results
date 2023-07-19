@@ -1,6 +1,12 @@
 import { createTheme } from "@mui/material"
 
-const theme = createTheme()
+const theme = createTheme({
+    palette: {
+        text: {
+            primary: 'green'
+        }
+    }
+})
 
 theme.typography.h3 = {
     fontSize: '0.8rem',
