@@ -1,8 +1,8 @@
 import React, { useEffect, useState, createContext } from 'react'
-import { Container } from '@mui/material'
+import { Container, ThemeProvider } from '@mui/material'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-
+import theme from './configs/theme'
 import dump from './assets/dump'
 import markAll from './utils/marking'
 import { Header } from './components/Header'
@@ -28,6 +28,7 @@ function App() {
 
   return (
     <Container id='app-container' maxWidth='md'>
+      <ThemeProvider theme={theme}>
       <PeopleContext.Provider value={people}>
         <BrowserRouter>
           <Header />
@@ -37,6 +38,8 @@ function App() {
           </Routes>
         </BrowserRouter>
       </PeopleContext.Provider>
+      </ThemeProvider>
+
     </Container>
   )
 }
