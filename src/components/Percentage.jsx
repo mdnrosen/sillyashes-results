@@ -9,7 +9,7 @@ export const Percentage = props => {
     const percentageFull = props.percent
 
     return (
-        <Box position={'relative'} width={{ xs: '15%', sm: '12.5%', md: '15%' }}>
+        <Box position={'relative'} width={{ xs: '20%', sm: '15%', md: '12.5%' }}>
             <svg viewBox="0 0 36 36" className='circular-chart'>
                 <path
                     className='circle'
