@@ -6,7 +6,8 @@ import { setCircleStrokeColour } from '../utils/helpers'
 
 import './percentage.css'
 
-export const Percentage = ({ percentageFull, percentile }) => {
+export const Percentage = ({ percent, percentile }) => {
+
 
     const circleColour = setCircleStrokeColour(percentile)
 
@@ -21,7 +22,7 @@ export const Percentage = ({ percentageFull, percentile }) => {
                     fill="none"
                     stroke={circleColour}
                     strokeWidth="1"
-                    strokeDasharray={`${percentageFull}, 100`}
+                    strokeDasharray={`${percent}, 100`}
                 />
             </svg>
             <Box sx={{ position: 'absolute', height: '100%', width: '100%', top: 0, display: 'table', textAlign: 'center' }}>
@@ -31,7 +32,7 @@ export const Percentage = ({ percentageFull, percentile }) => {
                         display: 'table-cell',
                         verticalAlign: 'middle'
                     }}
-                >{percentageFull}%</Typography>
+                >{percent}%</Typography>
             </Box>
         </Box>
     )
