@@ -6,11 +6,7 @@ import { setCircleStrokeColour } from '../utils/helpers'
 
 import './percentage.css'
 
-export const Percentage = props => {
-
-    const percentageFull = props.percent
-
-    const percentile = props.percentile
+export const Percentage = ({ percentageFull, percentile }) => {
 
     const circleColour = setCircleStrokeColour(percentile)
 
