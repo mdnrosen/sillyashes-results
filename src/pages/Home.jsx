@@ -58,7 +58,7 @@ export const Home = () => {
                             <ThemeProvider theme={theme}>
                                 <Typography variant='h6' color={'textPrimary'} sx={{ width: '25%', textAlign: 'left'}}>{posSfx(player.position)}</Typography>
                                 <Typography variant='h6' color={'textPrimary'} sx={{ width: '40%', textAlign: 'left'}}>{player.name}</Typography>
-                                <Typography variant='h5' color={'textPrimary'} sx={{ width: '10%', textAlign: 'left'}}>{player.totalScore}</Typography>
+                                <Typography variant='h6' color={'textPrimary'} sx={{ width: '15%', textAlign: 'left'}}>{player.totalScore}</Typography>
                                 <Percentage percent={player.percent} />
                             </ThemeProvider>
                         </Box>

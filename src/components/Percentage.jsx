@@ -9,7 +9,7 @@ export const Percentage = props => {
     const percentageFull = props.percent
 
     return (
-        <Box width={'10%'}>
+        <Box width={{xs: '15%', sm: '10%'}}>
             <svg viewBox="0 0 36 36" className='circular-chart'>
                 <path
                     className='circle'
@@ -24,11 +24,12 @@ export const Percentage = props => {
             </svg>
             <Box position={'relative'}>
                 <Typography
+                    className='circle-percentage-transform'
                     sx={{
+                        fontSize: 'smaller',
                         position: 'absolute',
                         top: '50%',
                         left: '50%',
-                        transform: 'translate(-50%, -185%)' // bodge here - works on screens > 800px wide but begins to overlap when smaller
                     }}
                 >{percentageFull}%</Typography>
             </Box>
