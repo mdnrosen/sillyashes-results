@@ -2,11 +2,15 @@ import React from 'react'
 
 import { Box, Typography } from '@mui/material'
 
+import { setCircleStrokeColour } from '../utils/helpers'
+
 import './percentage.css'
 
 export const Percentage = props => {
 
     const percentageFull = props.percent
+
+    const circleColour = setCircleStrokeColour(percentageFull)
 
     return (
         <Box position={'relative'} width={{ xs: '20%', sm: '15%', md: '12.5%' }}>
@@ -17,7 +21,7 @@ export const Percentage = props => {
                         a 15.9155 15.9155 0 0 1 0 31.831
                         a 15.9155 15.9155 0 0 1 0 -31.831"
                     fill="none"
-                    stroke="#444"
+                    stroke={circleColour}
                     strokeWidth="1"
                     strokeDasharray={`${percentageFull}, 100`}
                 />

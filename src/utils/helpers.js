@@ -33,3 +33,28 @@ export const posSfx = position => {
     }
     return position + "th"
 }
+
+// ? rather than hard-coded values, could scale based on percentile within scores?
+export const setCircleStrokeColour = percentage => {
+    let hexCode
+    switch (true){
+        case (percentage > 50):
+            hexCode = '#69B34C'
+            break
+        case (percentage > 45):
+            hexCode = '#ACB334'
+            break
+        case (percentage > 40):
+            hexCode = '#FAB733'
+            break
+        case (percentage > 35):
+            hexCode = '#FF8E15'
+            break
+        case (percentage  > 30):
+            hexCode = '#FF4E11'
+            break
+        default:
+            hexCode = '#FF0D0D'
+    }
+    return hexCode
+}
