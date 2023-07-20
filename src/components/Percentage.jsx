@@ -9,7 +9,7 @@ export const Percentage = props => {
     const percentageFull = props.percent
 
     return (
-        <Box width={{xs: '15%', sm: '10%'}}>
+        <Box position={'relative'} width={{ xs: '15%', sm: '12.5%', md: '15%' }}>
             <svg viewBox="0 0 36 36" className='circular-chart'>
                 <path
                     className='circle'
@@ -22,14 +22,12 @@ export const Percentage = props => {
                     strokeDasharray={`${percentageFull}, 100`}
                 />
             </svg>
-            <Box position={'relative'}>
+            <Box sx={{ position: 'absolute', height: '100%', width: '100%', top: 0, display: 'table', textAlign: 'center' }}>
                 <Typography
-                    className='circle-percentage-transform'
                     sx={{
                         fontSize: 'smaller',
-                        position: 'absolute',
-                        top: '50%',
-                        left: '50%',
+                        display: 'table-cell',
+                        verticalAlign: 'middle'
                     }}
                 >{percentageFull}%</Typography>
             </Box>

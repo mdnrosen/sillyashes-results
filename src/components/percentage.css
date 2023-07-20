@@ -13,60 +13,6 @@
     animation: progress 1s ease-out forwards;
 }
 
-.circle-percentage-transform {
-
-    transform: translate(-50%, -220%);
-
-    @media screen and (max-width: 700px) {
-        transform: translate(-50%, -215%);
-    }
-
-    @media screen and (max-width: 700px) {
-        transform: translate(-50%, -200%);
-    }
-
-    @media screen and (max-width:650px) {
-        transform: translate(-50%, -190%);
-    }
-
-    @media screen and (max-width:600px) {
-        font-size: 1rem !important;
-        transform: translate(-50%, -210%);
-    }
-
-    @media screen and (max-width:600px) {
-        transform: translate(-50%, -210%);
-    }
-
-    @media screen and (max-width:550px) {
-        transform: translate(-50%, -200%);
-    }
-
-    @media screen and (max-width:500px) {
-        transform: translate(-50%, -185%);
-    }
-
-    @media screen and (max-width:450px) {
-        font-size: 0.9rem !important;
-        transform: translate(-50%, -185%);
-    }
-
-    @media screen and (max-width:400px) {
-        font-size: 0.8rem !important;
-        transform: translate(-50%, -195%);
-    }
-
-    @media screen and (max-width:375px) {
-        font-size: 0.7rem !important;
-        transform: translate(-50%, -200%);
-    }
-
-    @media screen and (max-width:350px) {
-        font-size: 0.65rem !important;
-        transform: translate(-50%, -200%);
-    }
-}
-
 @keyframes progress {
     0% {
         stroke-dasharray: 0 100;
