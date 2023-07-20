@@ -27,7 +27,7 @@ function App() {
   },[])
 
   return (
-    <Container id='app-container' maxWidth='md'>
+    <Container id='app-container' maxWidth='md' disableGutters>
       <ThemeProvider theme={theme}>
       <PeopleContext.Provider value={people}>
         <BrowserRouter>

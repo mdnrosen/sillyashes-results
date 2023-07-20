@@ -11,7 +11,7 @@ export const HomeHeading = () => {
             <ThemeProvider theme={theme}>
                 <Typography
                     textAlign={'center'}
-                    variant='h3'
+                    variant={ {xs: 'h4', sm: 'h3', md: 'h2'}}
                     gutterBottom
                     sx={{
                         background: '-webkit-linear-gradient(right, #95ce39, #5fa92b, #337636, #4aa227)',
