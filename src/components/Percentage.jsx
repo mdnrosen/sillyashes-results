@@ -10,7 +10,9 @@ export const Percentage = props => {
 
     const percentageFull = props.percent
 
-    const circleColour = setCircleStrokeColour(percentageFull)
+    const percentile = props.percentile
+
+    const circleColour = setCircleStrokeColour(percentile)
 
     return (
         <Box position={'relative'} width={{ xs: '20%', sm: '15%', md: '12.5%' }}>
