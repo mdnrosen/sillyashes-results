@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react'
 import { Link } from 'react-router-dom'
-import { Box, ThemeProvider, Typography } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 
 import data from '../assets/dummyData.json'
@@ -10,7 +10,6 @@ import { SearchToolbar } from '../components/SearchToolbar'
 import markAll from '../utils/marking'
 import { posSfx, trophyDisplay } from '../utils/helpers'
 import { PeopleContext } from '../App'
-import theme from '../configs/theme'
 
 
 export const Home = () => {
@@ -56,25 +55,23 @@ export const Home = () => {
                         }}
                     >
                         <Box sx={{ width: '100%', maxWidth: '600px', display: 'inherit', justifyContent: 'space-between', alignItems: 'inherit' }}>
-                            <ThemeProvider theme={theme}>
+                            <Typography
+                                variant='h6'
+                                color={'textPrimary'}
+                                sx={{ width: '25%', textAlign: 'left', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}
+                            >
                                 <Typography
-                                    variant='h6'
-                                    color={'textPrimary'}
-                                    sx={{ width: '25%', textAlign: 'left', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}
+                                    display={trophyDisplay(player.position).display}
+                                    color={trophyDisplay(player.position).color}
+                                    marginLeft={'2%'}
                                 >
-                                    <Typography
-                                        display={trophyDisplay(player.position).display}
-                                        color={trophyDisplay(player.position).color}
-                                        marginLeft={'2%'}
-                                    >
-                                        <EmojiEventsIcon />
-                                    </Typography>
-                                    {posSfx(player.position)}
+                                    <EmojiEventsIcon />
                                 </Typography>
-                                <Typography variant='h6' color={'textPrimary'} sx={{ width: '40%', textAlign: 'left' }}>{player.name}</Typography>
-                                <Typography variant='h6' color={'textPrimary'} sx={{ width: '15%', textAlign: 'left' }}>{player.totalScore}</Typography>
-                                <Percentage percent={player.percent} percentile={player.positionPercentile} />
-                            </ThemeProvider>
+                                {posSfx(player.position)}
+                            </Typography>
+                            <Typography variant='h6' color={'textPrimary'} sx={{ width: '40%', textAlign: 'left' }}>{player.name}</Typography>
+                            <Typography variant='h6' color={'textPrimary'} sx={{ width: '15%', textAlign: 'left' }}>{player.totalScore}</Typography>
+                            <Percentage percent={player.percent} percentile={player.positionPercentile} />
                         </Box>
                     </Box>
                 </Link>
