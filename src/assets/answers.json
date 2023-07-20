@@ -69,7 +69,7 @@
         },
         "questionNum" : 8,
         "questionName": "h2h_reviews",
-        "answer" : ["England", "Australia"] 
+        "answer" : [ "Australia"] 
     },
     {
         "round" : {
@@ -78,7 +78,7 @@
         },
         "questionNum" : 9,
         "questionName": "tons",
-        "answer" : ["Ben Stokes", "Usman Khawaja", "Joe Root", "Mitch Marsh", "Steve Smith"] 
+        "answer" : ["Ben Stokes", "Usman Khawaja", "Joe Root", "Mitch Marsh", "Steve Smith", "Zak Crawley"] 
     },
     {
         "round" : {
@@ -96,7 +96,7 @@
         },
         "questionNum" : 11,
         "questionName": "5fers",
-        "answer" : ["Mark Wood", "Pat Cummins", "Mitchell Starc"] 
+        "answer" : ["Mark Wood", "Pat Cummins", "Mitchell Starc", "Chris Woakes"] 
     },
     {
         "round" : {
@@ -283,7 +283,7 @@
         },
         "questionNum" : 32,
         "questionName": "tf_bazBall",
-        "answer" : "false"
+        "answer" : "true"
     },
     {
         "round" : {

@@ -1,0 +1,61 @@
+    {
+      "guesses": {
+        "tf_batterDrop": "false",
+        "m_tailenders": "Caught Outfield",
+        "h2h_wickets_pt": "Joe Root",
+        "quack": [
+          "Zak Crawley",
+          "Cameron Green",
+          "Marnus Labuschagne"
+        ],
+        "tf_moeen": "false",
+        "h2h_wickets_eng": "Stuart Broad",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "29",
+        "h2h_runs_bowlers": "Stuart Broad",
+        "tf_20wickets": "false",
+        "h2h_reviews": "Australia",
+        "tf_nighthawk": "false",
+        "m_venues": "Edgbaston",
+        "tf_woakes": "true",
+        "tf_rootTon": "true",
+        "num_playersTotal": "28",
+        "num_stokesSR": "68",
+        "m_camGreen": "Batting Average",
+        "m_firstInns": "300 - 349",
+        "fullStraight": {
+          "ausFS": "Mitchell Starc",
+          "engFS": "Mark Wood"
+        },
+        "m_afterThree": "2 - 1 Australia",
+        "tf_chase": "false",
+        "tf_decided": "false",
+        "bigHitters": {
+          "engSixes": "Ben Stokes",
+          "ausSixes": "Pat Cummins"
+        },
+        "tf_moreThanBurns": "false",
+        "h2h_wickets_aus": "Pat Cummins",
+        "h2h_runs_eng": "Joe Root",
+        "5fers": [
+          "Mitchell Starc",
+          "Mark Wood",
+          "Pat Cummins"
+        ],
+        "num_spin": "33",
+        "m_warnerBroad": "2 - 3",
+        "h2h_catches": "Joe Root",
+        "num_wk": "42",
+        "tons": [
+          "Joe Root",
+          "Steve Smith",
+          "Ben Stokes",
+          "Usman Khawaja",
+          "Mitch Marsh"
+        ],
+        "tf_bazBall": "false",
+        "m_retirement": "Neither"
+      },
+      "id": "1c199c97-b4e9-4265-mr-93rf3c7",
+      "name": "Control"
+    }

@@ -3,7 +3,7 @@ import { Container, ThemeProvider } from '@mui/material'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import theme from '../src/configs/theme'
 import './App.css'
-
+import theme from './configs/theme'
 import dump from './assets/dump'
 import markAll from './utils/marking'
 import { Header } from './components/Header'
@@ -28,7 +28,8 @@ function App() {
   }, [])
 
   return (
-    <Container id='app-container' maxWidth='md'>
+    <Container id='app-container' maxWidth='md' disableGutters>
+      <ThemeProvider theme={theme}>
       <PeopleContext.Provider value={people}>
         <BrowserRouter>
           <ThemeProvider theme={theme}>
@@ -40,6 +41,8 @@ function App() {
           </ThemeProvider>
         </BrowserRouter>
       </PeopleContext.Provider>
+      </ThemeProvider>
+
     </Container>
   )
 }

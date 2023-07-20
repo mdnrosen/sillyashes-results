@@ -2,7 +2,7 @@ import React from 'react'
 import { AppBar, Box, TextField } from '@mui/material'
 
 
-export const SearchToolbar = props => {
+export const SearchToolbar = ({ searchChangeHandler }) => {
 
     return (
         <AppBar
@@ -10,12 +10,12 @@ export const SearchToolbar = props => {
             width={'100%'}
             sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', backgroundColor: 'transparent', boxShadow: 'none' }}
         >
-            <Box sx={{ maxWidth: '370px', flex: 1 }}>
+            <Box sx={{ maxWidth: '600px', flex: 1, mx: 2 }}>
                 <TextField
                     fullWidth
                     label="Filter by name"
                     color='success'
-                    onChange={e => props.searchChangeHandler(e.target.value)}
+                    onChange={e => searchChangeHandler(e.target.value)}
                 />
             </Box>
         </AppBar>

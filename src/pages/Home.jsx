@@ -1,15 +1,14 @@
-import React, { useEffect, useState, useContext } from 'react'
+import React, { useState, useContext } from 'react'
 import { Link } from 'react-router-dom'
-import { Box, Typography } from '@mui/material'
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import { Box, ThemeProvider, Typography } from '@mui/material'
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents'
 
 import data from '../assets/dummyData.json'
 import dump from '../assets/dump.json'
 import { Percentage } from '../components/Percentage'
 import { SearchToolbar } from '../components/SearchToolbar'
-import markAll from '../utils/marking'
-import { posSfx, trophyDisplay } from '../utils/helpers'
 import { PeopleContext } from '../App'
+
 
 
 export const Home = () => {
@@ -36,7 +35,6 @@ export const Home = () => {
         <Box sx={{ height: '100%', width: '100%' }}>
 
             <SearchToolbar searchChangeHandler={searchChangeHandler} />
-
 
             {filterPlayers().map(player => (
                 <Link to={`/${player.id}`} key={player.id}>
