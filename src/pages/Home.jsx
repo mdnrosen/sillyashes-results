@@ -37,42 +37,7 @@ export const Home = () => {
             <SearchToolbar searchChangeHandler={searchChangeHandler} />
 
             {filterPlayers().map(player => (
-                <Link to={`/${player.id}`} key={player.id}>
-                    <Box
-                        boxShadow={2}
-                        sx={{
-                            display: 'flex',
-                            justifyContent: 'center',
-                            alignItems: 'center',
-                            p: 2,
-                            m: 2,
-                            border: '1px solid #ccc',
-                            borderRadius: '0.5rem',
-                            textDecoration: 'none',
-                            color: 'inherit'
-                        }}
-                    >
-                        <Box sx={{ width: '100%', maxWidth: '600px', display: 'inherit', justifyContent: 'space-between', alignItems: 'inherit' }}>
-                            <Typography
-                                variant='h6'
-                                color={'textPrimary'}
-                                sx={{ width: '25%', textAlign: 'left', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}
-                            >
-                                <Typography
-                                    display={trophyDisplay(player.position).display}
-                                    color={trophyDisplay(player.position).color}
-                                    marginLeft={'2%'}
-                                >
-                                    <EmojiEventsIcon />
-                                </Typography>
-                                {posSfx(player.position)}
-                            </Typography>
-                            <Typography variant='h6' color={'textPrimary'} sx={{ width: '40%', textAlign: 'left' }}>{player.name}</Typography>
-                            <Typography variant='h6' color={'textPrimary'} sx={{ width: '15%', textAlign: 'left' }}>{player.totalScore}</Typography>
-                            <Percentage percent={player.percent} percentile={player.positionPercentile} />
-                        </Box>
-                    </Box>
-                </Link>
+                <PlayerCard key={player.id} player={player} />
             ))}
 
         </Box>
