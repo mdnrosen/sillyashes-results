@@ -1,7 +1,6 @@
 import React, { useEffect, useState, createContext } from 'react'
 import { Container, ThemeProvider } from '@mui/material'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import theme from '../src/configs/theme'
 import './App.css'
 import theme from './configs/theme'
 import dump from './assets/dump'

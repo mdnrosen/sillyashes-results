@@ -1,8 +1,8 @@
 import React, { useState, useContext } from 'react'
 import { Link } from 'react-router-dom'
-import { Box, ThemeProvider, Typography } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents'
-
+import { posSfx, trophyDisplay } from '../utils/helpers'
 import data from '../assets/dummyData.json'
 import dump from '../assets/dump.json'
 import { Percentage } from '../components/Percentage'
