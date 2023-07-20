@@ -1,11 +1,12 @@
 import React, { useEffect, useState, useContext } from 'react'
-import { Accordion, AccordionSummary, AccordionDetails, Box, Toolbar, Typography, ListItem, ListItemAvatar, ListItemText } from '@mui/material'
+import { Accordion, AccordionSummary, AccordionDetails, Box, CircularProgress, Toolbar, Typography, ListItem, ListItemAvatar, ListItemText } from '@mui/material'
 import { useParams } from 'react-router-dom'
 import { PeopleContext } from '../App'
 import { Percentage } from '../components/Percentage'
 import { posSfx } from '../utils/helpers'
 
 import { ExpandMore } from '@mui/icons-material'
+import { SimpleRoundSummary } from '../modules/SimpleRoundSummary'
 
 
 
@@ -38,29 +39,11 @@ export const Player = () => {
           />
         </Typography>
       </Toolbar>
-      <Accordion>
-        <AccordionSummary
-        >
-          <Toolbar>
-            <ListItem>
-              <ListItemAvatar>
-                <Typography variant="h6">
-                  #1
-                </Typography>
-              </ListItemAvatar>
-              <ListItemText 
-                primary={
-                  <Typography variant="h6">Head to Head</Typography>
-                }
-                secondary={
-                  <Typography variant="body1">15/30</Typography>
-                }
-              />
-            </ListItem>
-          </Toolbar>
 
-        </AccordionSummary>
-        </Accordion>
+      
+      <SimpleRoundSummary 
+        questions={player.results.filter(p => p.roundNumber === 1)}
+      />
     </Box>
     ) : (
       <Box>
