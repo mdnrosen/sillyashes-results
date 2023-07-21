@@ -1,11 +1,12 @@
 import { createTheme } from "@mui/material"
 
 const theme = createTheme({
-    palette: {
-        text: {
-            primary: 'green'
-        }
-    }
+    // palette: {
+    //     text: {
+    //         primary: '#008000'
+    //     }
+    // },
+    // danger: 'red'
 })
 
 theme.typography.h3 = {
