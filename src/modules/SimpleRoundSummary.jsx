@@ -63,7 +63,7 @@ export const SimpleRoundSummary = ({ questions }) => {
                         </ListItemAvatar>
                         <ListItemText 
                             primary={
-                                <Typography variant="h6">{q.questionTitle}</Typography>
+                                <Typography variant="body1">{q.questionTitle}</Typography>
                             }
                             secondary={
                                 q.question ?
