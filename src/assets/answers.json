@@ -6,14 +6,15 @@
         },
         "questionNum": 1,
         "questionName": "h2h_wickets_eng",
-        "question" : "Who will take more wickets?",
         "answer": [
             "Stuart Broad"
         ],
         "options": [
-            "Stuart Broad", "James Anderson"
+            "Stuart Broad",
+            "James Anderson"
         ],
-        "questionTitle": "Old Dog vs the Older"
+        "questionTitle": "Old Dog vs the Older",
+        "question": "Who will take more wickets?"
     },
     {
         "round": {
@@ -26,9 +27,11 @@
             "Pat Cummins"
         ],
         "options": [
-            "Pat Cummins", "Scott Boland"
+            "Pat Cummins",
+            "Scott Boland"
         ],
-        "questionTitle": "Skipper v Statue"
+        "questionTitle": "Skipper v Statue",
+        "question": "Who will take more wickets?"
     },
     {
         "round": {
@@ -40,11 +43,12 @@
         "answer": [
             "Joe Root"
         ],
-        "options" : [
-            "Joe Root", "Marnus Labuschagne"
+        "options": [
+            "Joe Root",
+            "Marnus Labuschagne"
         ],
-        
-        "questionTitle": "Part timers"
+        "questionTitle": "Part timers",
+        "question": "Who will take more wickets?"
     },
     {
         "round": {
@@ -56,10 +60,12 @@
         "answer": [
             "Joe Root"
         ],
-        "options" : [
-            "Joe Root", "David Warner"
+        "options": [
+            "Joe Root",
+            "David Warner"
         ],
-        "questionTitle": "Safe Hands"
+        "questionTitle": "Safe Hands",
+        "question": "Who will take more catches?"
     },
     {
         "round": {
@@ -71,10 +77,12 @@
         "answer": [
             "Joe Root"
         ],
-        "options" : [
-            "Joe Root", "Harry Brook"
+        "options": [
+            "Joe Root",
+            "Harry Brook"
         ],
-        "questionTitle": "Power or Precision"
+        "questionTitle": "Power or Precision",
+        "question": "Who will score more runs?"
     },
     {
         "round": {
@@ -86,10 +94,12 @@
         "answer": [
             "Steve Smith"
         ],
-        "options" : [
-            "Steve Smith", "Marnus Labuschagne"
+        "options": [
+            "Steve Smith",
+            "Marnus Labuschagne"
         ],
-        "questionTitle": "Master v Padawan"
+        "questionTitle": "Master v Padawan",
+        "question": "Who will score more runs?"
     },
     {
         "round": {
@@ -101,10 +111,12 @@
         "answer": [
             "Stuart Broad"
         ],
-        "options" : [
-            "Stuart Broad", "Nathan Lyon"
+        "options": [
+            "Stuart Broad",
+            "Nathan Lyon"
         ],
-        "questionTitle": "Slogger"
+        "questionTitle": "Slogger",
+        "question": "Who will score more runs?"
     },
     {
         "round": {
@@ -116,10 +128,12 @@
         "answer": [
             "Australia"
         ],
-        "options" : [
-            "England", "Australia"
+        "options": [
+            "England",
+            "Australia"
         ],
-        "questionTitle": "Stay with your onfield decision"
+        "questionTitle": "Stay with your onfield decision",
+        "question": "Who will get more reviews wrong?"
     },
     {
         "round": {
@@ -136,7 +150,8 @@
             "Steve Smith",
             "Zak Crawley"
         ],
-        "questionTitle": "Ton Up"
+        "questionTitle": "Ton Up",
+        "question": "Pick EVERY batter that will score a hundred."
     },
     {
         "round": {
@@ -149,7 +164,8 @@
             "Cameron Green",
             "Marnus Labuschagne"
         ],
-        "questionTitle": "Quack Quack"
+        "questionTitle": "Quack Quack",
+        "question": "Pick THREE batters who will get ducks."
     },
     {
         "round": {
@@ -164,7 +180,8 @@
             "Mitchell Starc",
             "Chris Woakes"
         ],
-        "questionTitle": "5-fers!"
+        "questionTitle": "5-fers!",
+        "question": "Pick EVERY bowler who will take a 5fer"
     },
     {
         "round": {
@@ -173,7 +190,8 @@
         },
         "questionNum": 12,
         "questionName": "bigHitters",
-        "questionTitle": "Big Hitters"
+        "questionTitle": "Big Hitters",
+        "question": "Pick ONE player from each team who will hit the most sixes."
     },
     {
         "round": {
@@ -182,7 +200,8 @@
         },
         "questionNum": 13,
         "questionName": "fullStraight",
-        "questionTitle": "Full & Straight"
+        "questionTitle": "Full & Straight",
+        "question": "Pick ONE bowler from each team who will take the most wickets bowled or LBW."
     },
     {
         "round": {
@@ -192,7 +211,8 @@
         "questionNum": 14,
         "questionName": "num_playersTotal",
         "answer": 28,
-        "questionTitle": "Rest & Rotate"
+        "questionTitle": "Rest & Rotate",
+        "question": "How many different players will play a test?"
     },
     {
         "round": {
@@ -202,7 +222,8 @@
         "questionNum": 15,
         "questionName": "num_wk",
         "answer": 42,
-        "questionTitle": "In the gloves"
+        "questionTitle": "In the gloves",
+        "question": "How many wicket keeper catches?"
     },
     {
         "round": {
@@ -212,7 +233,8 @@
         "questionNum": 16,
         "questionName": "num_stokesSR",
         "answer": 68,
-        "questionTitle": "Go Hard"
+        "questionTitle": "Go Hard",
+        "question": "What will Ben Stokes' batting strike rate be?"
     },
     {
         "round": {
@@ -222,7 +244,8 @@
         "questionNum": 17,
         "questionName": "num_spin",
         "answer": 33,
-        "questionTitle": "Nice Garry"
+        "questionTitle": "Nice Garry",
+        "question": "How many wickets will fall to spin?"
     },
     {
         "round": {
@@ -232,7 +255,8 @@
         "questionNum": 18,
         "questionName": "num_elevenRuns",
         "answer": 29,
-        "questionTitle": "Agar-ing it"
+        "questionTitle": "Agar-ing it",
+        "question": "How many runs will be scored at number 11?"
     },
     {
         "round": {
@@ -242,7 +266,11 @@
         "questionNum": 19,
         "questionName": "m_warnerBroad",
         "answer": "2 - 3",
-        "questionTitle": "Broad's Bunny"
+        "options" : [
+            "0 - 1", "2 - 3", "3 - 4", "5 - 6", "7+"
+        ],
+        "questionTitle": "Broad's Bunny",
+        "question": "How many times will Stuart Broad dismiss David Warner?"
     },
     {
         "round": {
@@ -252,7 +280,11 @@
         "questionNum": 20,
         "questionName": "m_venues",
         "answer": "Edgbaston",
-        "questionTitle": "Road House"
+        "questionTitle": "Road House",
+        "question": "Which venue will see the fewest wickets fall?",
+        "options": [
+            "Edgbaston", "Lord's", "Headingley", "Old Trafford", "The Oval"
+        ]
     },
     {
         "round": {
@@ -262,7 +294,12 @@
         "questionNum": 21,
         "questionName": "m_camGreen",
         "answer": "Batting Average",
-        "questionTitle": "All-round Aussie"
+        "questionTitle": "All-round Aussie",
+        "question": "What will be the lower for Cameron Green? His:",
+        "options" : [
+            "Batting Average",
+            "Bowling Average"
+        ]
     },
     {
         "round": {
@@ -272,7 +309,11 @@
         "questionNum": 22,
         "questionName": "m_firstInns",
         "answer": "300 - 349",
-        "questionTitle": "Runs on the board"
+        "questionTitle": "Runs on the board",
+        "question": "What will be the average first innings score?",
+        "options" : [
+            "< 200", "200 - 249", "250 - 299", "300 - 349", "350+"
+        ]
     },
     {
         "round": {
@@ -282,7 +323,20 @@
         "questionNum": 23,
         "questionName": "m_afterThree",
         "answer": "2 - 1 Australia",
-        "questionTitle": "Scores on the doors"
+        "questionTitle": "Scores on the doors",
+        "question": "After 3 tests, what will the series score be?",
+        "options" : [
+            "0 - 0",
+            "1 - 0 England",
+            "1 - 0 Australia",
+            "1 - 1",
+            "2 - 0 England",
+            "2 - 0 Australia",
+            "2 - 1 England",
+            "2 - 1 Australia",
+            "3 - 0 England",
+            "3 - 0 Australia"
+        ]
     },
     {
         "round": {
@@ -292,7 +346,11 @@
         "questionNum": 24,
         "questionName": "m_tailenders",
         "answer": "Caught Outfield",
-        "questionTitle": "Don't let the tail wag"
+        "questionTitle": "Don't let the tail wag",
+        "question": "What will be the most common method of dismissal for tailenders?",
+        "options" : [
+            "Bowled", "Caught Behind", "Caught Outfield", "LBW", "Stumped"
+        ]
     },
     {
         "round": {
@@ -302,106 +360,160 @@
         "questionNum": 25,
         "questionName": "m_retirement",
         "answer": "Neither",
-        "questionTitle": "End of an era?"
+        "questionTitle": "End of an era?",
+        "question": "Who will annouce their retirement during or shortly after the series?",
+        "options" : [
+            "Jimmy Anderson", "Stuart Broad", "Both", "Neither"
+        ]
     },
     {
         "round": {
             "name": "True False",
             "number": 5
         },
+        "options": [
+            "true",
+            "false"
+        ],
         "questionNum": 26,
         "questionName": "tf_chase",
         "answer": "false",
-        "questionTitle": "Let's chase"
+        "questionTitle": "Let's chase",
+        "question": "England will choose to bowl every time they win a toss."
     },
     {
         "round": {
             "name": "True False",
             "number": 5
         },
+        "options": [
+            "true",
+            "false"
+        ],
         "questionNum": 27,
         "questionName": "tf_woakes",
         "answer": "true",
-        "questionTitle": "Woaksy is back"
+        "questionTitle": "Woaksy is back",
+        "question": "Chris Woakes will play at least TWO tests."
     },
     {
         "round": {
             "name": "True False",
             "number": 5
         },
+        "options": [
+            "true",
+            "false"
+        ],
         "questionNum": 28,
         "questionName": "tf_20wickets",
         "answer": "false",
-        "questionTitle": "Roll Them"
+        "questionTitle": "Roll Them",
+        "question": "England will take 20 wickets in EVERY test."
     },
     {
         "round": {
             "name": "True False",
             "number": 5
         },
+        "options": [
+            "true",
+            "false"
+        ],
         "questionNum": 29,
         "questionName": "tf_nighthawk",
         "answer": "false",
-        "questionTitle": "Nighthawk"
+        "questionTitle": "Nighthawk",
+        "question": "Stuart Broad will bat at SIX OR HIGHER at least once"
     },
     {
         "round": {
             "name": "True False",
             "number": 5
         },
+        "options": [
+            "true",
+            "false"
+        ],
         "questionNum": 30,
         "questionName": "tf_batterDrop",
         "answer": "false",
-        "questionTitle": "Jason Roy'd"
+        "questionTitle": "Jason Roy'd",
+        "question": "England will drop a batter during the series."
     },
     {
         "round": {
             "name": "True False",
             "number": 5
         },
+        "options": [
+            "true",
+            "false"
+        ],
         "questionNum": 31,
         "questionName": "tf_moreThanBurns",
         "answer": "false",
-        "questionTitle": "Runs at the top"
+        "questionTitle": "Runs at the top",
+        "question": "Any opener (for either team) will score more runs than Rory Burns in 2019 (390)."
     },
     {
         "round": {
             "name": "True False",
             "number": 5
         },
+        "options": [
+            "true",
+            "false"
+        ],
         "questionNum": 32,
         "questionName": "tf_bazBall",
         "answer": "true",
-        "questionTitle": "Baz Ball"
+        "questionTitle": "Baz Ball",
+        "question": "England will score 175+ in a session"
     },
     {
         "round": {
             "name": "True False",
             "number": 5
         },
+        "options": [
+            "true",
+            "false"
+        ],
         "questionNum": 33,
         "questionName": "tf_moeen",
         "answer": "false",
-        "questionTitle": "Return of the Beard"
+        "questionTitle": "Return of the Beard",
+        "question": "Moeen Ali will take at least 10 wickets"
     },
     {
         "round": {
             "name": "True False",
             "number": 5
         },
+        "options": [
+            "true",
+            "false"
+        ],
         "questionNum": 34,
         "questionName": "tf_rootTon",
         "answer": "true",
-        "questionTitle": "It's been a while..."
+        "questionTitle": "It's been a while...",
+        "question": "Joe Root will score a hundred"
     },
     {
         "round": {
             "name": "True False",
             "number": 5
         },
+        "options": [
+            "true",
+            "false"
+        ],
         "questionNum": 35,
         "questionName": "tf_decided",
         "answer": "false",
-        "questionTitle": "Dead Rubber"
+        "questionTitle": "Dead Rubber",
+        "question": "The Ashes will be decided before the 5th Test."
     }
 ]

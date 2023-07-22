@@ -7,7 +7,7 @@ import { setCircleStrokeColour } from '../utils/helpers'
 import './percentage.css'
 
 export const Percentage = ({ percent, percentile }) => {
-
+    
     const circleColour = setCircleStrokeColour(percentile)
 
     return (
@@ -31,7 +31,7 @@ export const Percentage = ({ percent, percentile }) => {
                         display: 'table-cell',
                         verticalAlign: 'middle'
                     }}
-                >{percentageFull}%</Typography>
+                >{percent}%</Typography>
             </Box>
         </Box>
     )

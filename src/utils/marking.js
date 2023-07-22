@@ -12,7 +12,7 @@ const markAll = (person) => {
     const marking_simple = (answers) => {
         const { guesses } = person;
         const result = answers.map(ans => {
-            const { answer, questionName, questionNum, round, questionTitle, options } = ans
+            const { answer, questionName, questionNum, round, questionTitle, options, question } = ans
             const correct = guesses[questionName].includes(answer)
 
             return {
@@ -21,6 +21,7 @@ const markAll = (person) => {
                 questionNumber: questionNum,
                 questionName,
                 questionTitle,
+                question,
                 guessed: guesses[questionName],
                 correctAnswer: answer,
                 points: correct ? 5 : 0,
@@ -36,7 +37,7 @@ const markAll = (person) => {
         const { guesses } = person;
         const result = answers.map(ans => {
             let points = 0
-            const { answer, questionName, questionNum, round, questionTitle } = ans
+            const { answer, questionName, questionNum, round, questionTitle,question } = ans
             const guessed = guesses[questionName]
             if (questionName === 'tons' || questionName === '5fers') {
 
@@ -55,6 +56,7 @@ const markAll = (person) => {
                     roundName: round.name,
                     questionNumber: questionNum,
                     questionName: questionName,
+                    question,
                     guessed, guessed,
                     correctAnswer: answer,
                     points,
@@ -72,6 +74,7 @@ const markAll = (person) => {
                     roundNumber: round.number,
                     roundName: round.name,
                     questionNumber: questionNum,
+                    question,
                     questionName,
                     questionTitle,
                     guessed,
@@ -96,6 +99,7 @@ const markAll = (person) => {
                     roundName: round.name,
                     questionNumber: questionNum,
                     questionName,
+                    question,
                     questionTitle,
                     guessed: picks,
                     points
@@ -111,7 +115,7 @@ const markAll = (person) => {
         const { guesses } = person;
         const result = answers.map(ans => {
             let points = 0
-            const { answer, questionName, questionNum, round, questionTitle } = ans
+            const { answer, questionName, questionNum, round, questionTitle, question } = ans
 
             const guessed = parseInt(guesses[questionName])
             if (between(guessed, minusPerc(answer, 0.15), addPerc(answer, 0.15))) {
@@ -129,6 +133,7 @@ const markAll = (person) => {
                 roundNumber: round.number,
                 roundName: round.name,
                 questionNumber: questionNum,
+                question,
                 questionName,
                 questionTitle,
                 guessed: guesses[questionName],

@@ -1,0 +1,766 @@
+[
+    {
+        "num" : 1,
+        "roundName" : "Head to Head",
+        "roundNum" : 1,
+        "slug" : "head",
+        "name": "h2h_wickets_eng",
+        "title": "Old Dog vs the Older",
+        "question" : "Who will take more wickets?",
+        "options" : [
+            {
+                "label" : "James Anderson",
+                "value" : "James Anderson",
+                "team": "eng"
+            },
+            {
+                "label" : "Stuart Broad",
+                "value" : "Stuart Broad",
+                "team": "eng"
+            }
+        ],
+        "answer" : "James Anderson"
+    },          
+    {
+        "num" : 2,
+        "roundName" : "Head to Head",
+        "roundNum" : 1,
+        "slug" : "head",
+        "name": "h2h_wickets_aus",
+        "title": "Skipper v Statue",
+        "question" : "Who will take more wickets?",
+        "options" : [{
+                "label" : "Pat Cummins",
+                "value" : "Pat Cummins",
+                "team": "aus"
+            },
+            {
+                "label" : "Scott Boland",
+                "value" : "Scott Boland",
+                "team": "aus"
+            }
+        
+        ],
+        "answer" : "Pat Cummins"
+    },      
+    {
+        "num" : 3,
+        "roundName" : "Head to Head",
+        "roundNum" : 1,
+        "slug" : "head",
+
+        "name": "h2h_wickets_pt",
+        "title": "Part timers",
+        "question" : "Who will take more wickets?",
+        "options" : [{
+                "label" : "Joe Root",
+                "value" : "Joe Root",
+                "team": "eng"
+
+            },
+            {
+                "label" : "Marnus Labuschagne",
+                "value" : "Marnus Labuschagne",
+                "team": "aus"
+
+            }
+        
+        ],
+        "answer" : "Joe Root"
+    },   
+    {
+        "num" : 4,
+        "roundName" : "Head to Head",
+        "roundNum" : 1,
+        "slug" : "head",
+
+        "name": "h2h_catches",
+        "title": "Safe Hands",
+        "question" : "Who will take more catches?",
+        "options" : [{
+            "name" : "h2h_catches",
+            "label" : "Joe Root",
+            "value" : "Joe Root",
+            "team": "eng"
+
+            },
+            {
+                "name" : "h2h_catches",
+                "label" : "David Warner",
+                "value" : "David Warner",
+                "team": "aus"
+
+            }
+        
+        ],
+        "answer" : "David Warner"
+    },
+    {
+        "num" : 5,
+        "slug" : "head",
+        "roundName" : "Head to Head",
+        "roundNum" : 1,
+        "name": "h2h_runs_eng",
+        "title": "Power or Precision",
+
+        "question" : "Who will score more runs?",
+        "options" : [
+            {
+                "label" : "Joe Root",
+                "value" : "Joe Root",
+                "team": "eng"
+
+            },
+            {
+                "label" : "Harry Brook",
+                "value" : "Harry Brook",
+                "team": "eng"
+
+            }
+        
+        ],
+        "answer" : "Harry Brook"
+    },       
+    {
+        "num" : 6,
+        "slug" : "head",
+        "roundName" : "Head to Head",
+        "roundNum" : 1,
+        "name": "h2h_runs_aus",
+        "title": "Master v Padawan",
+
+        "question" : "Who will score more runs?",
+        "options" : [
+            {
+                "label" : "Steve Smith",
+                "value" : "Steve Smith",
+                "team": "aus"
+
+            },
+            {
+                "label" : "Marnus Labuschagne",
+                "value" : "Marnus Labuschagne",
+                "team": "aus"
+
+            }
+        
+        ],
+        "answer" : "Marnus Labuschagne"
+    },    
+    {
+
+        "num" : 7,
+        "roundName" : "Head to Head",
+        "roundNum" : 1,
+        "slug" : "head",
+
+        "name": "h2h_runs_bowlers",
+        "title": "Slogger",
+
+        "question" : "Who will score more runs?",
+        "options" : [
+            {
+                "label" : "Stuart Broad",
+                "value" : "Stuart Broad",
+                "team": "eng"
+
+                
+            },
+            {
+                "label" : "Nathan Lyon",
+                "value" : "Nathan Lyon",
+                "team": "aus"
+
+            }
+        
+        ],
+        "answer" : "Nathan Lyon"
+    },
+    {
+        "num" : 8,
+        "roundName" : "Head to Head",
+        "roundNum" : 1,
+        "slug" : "head",
+
+        "title": "Stay with your onfield decision",
+        "help" : "Meaning they lose that review.",
+
+        "name" : "h2h_reviews",
+
+        "question" : "Who will get more reviews wrong?",
+        "options" : [
+            {
+                "label" : "England",
+                "value" : "England",
+                "team": "eng"
+
+            },
+            {
+                "label" : "Australia",
+                "value" : "Australia",
+                "team": "aus"
+
+            }
+        
+        ],
+        "answer" : "Australia"
+    },   
+    {
+        "num" : 9,
+        "name" : "tons",
+        "title": "Ton Up",
+        "roundName": "Pick Em",
+        "roundNum" : 2,
+        "help" : "No extra points for multiple hundreds",
+        "marks" : "+5 for each correct, -3 for each incorrect or missed",
+        "question" : "Pick EVERY batter that will score a hundred.",
+        "options" : "all"
+    },        
+    {
+        "num" : 10,
+        "roundName": "Pick Em",
+        "roundNum" : 2,        
+        "name": "quack",
+        "title": "Quack Quack",
+        "help" : "David Warner in 2019 got 3, so that would be 9 points",
+        "marks" : "+3 for each duck",
+        "question" : "Pick THREE batters who will get ducks.",
+        "options" : "batter"
+    },        
+    {
+        "num" : 11,
+        "roundName": "Pick Em",
+        "roundNum" : 2,
+        "name" : "5fers",
+        "title" : "5-fers!",
+        "help" : "No extra points for multiple 5fers",
+        "marks" : "+5 for each correct, -3 for each incorrect or missed",
+        "question" : "Pick EVERY bowler who will take a 5fer",
+        "options" : "bowler"
+    },
+    {
+        "num" : 12,
+        "title": "Big Hitters",
+        "roundName": "Pick Em",
+        "roundNum" : 2,
+        "name": "bigHitters",
+        "help" : "No upper limit. If your pick keeps hitting them, you keep getting points.",
+
+        "marks" : "+2 for each six hit",
+        "question" : "Pick ONE player from each team who will hit the most sixes.",
+        "options" : "all"
+    },
+    {
+        "num" : 13,
+        "roundName": "Pick Em",
+        "roundNum" : 2,
+        "name": "fullStraight",
+        "title": "Full & Straight",
+        "help" : "Points for each dismissal",
+        "marks" : "+2 for each bowled or LBW dismissal",
+        "question" : "Pick ONE bowler from each team who will take the most wickets bowled or LBW.",
+        "options" : "bowler"
+    },
+    {
+        "num" : 14,
+        "roundName": "Pick Em",
+        "roundNum" : 3,
+        "help": "Picked in the starting XI or a concussion sub",
+        "title": "Rest & Rotate",
+        "question" : "How many different players will play a test?",
+        "answer" : 31,
+        "name": "num_playersTotal"
+
+    },          
+     {
+        "num" : 15,
+        "roundName": "Numbers",
+        "roundNum" : 3,
+        "title": "In the gloves",
+        "help": "Nicks or top edges, just anything in the gloves",
+        "question" : "How many wicket keeper catches?",
+        "answer" : 42,
+        "name": "num_wk"
+
+    },       
+    {
+        "num" : 16,
+        "roundName": "Numbers",
+        "roundNum" : 3,
+        "title": "Go Hard",
+        "help" : "Rounded to the nearest whole number please",
+        "question" : "What will Ben Stokes' batting strike rate be?",
+        "answer" : 82,
+        "name": "num_stokesSR"
+
+    },
+    {
+        "num" : 17,
+        "roundName": "Numbers",
+        "roundNum" : 3,
+        "title": "Nice Garry",
+        "question" : "How many wickets will fall to spin?",
+        "help" : "Pretty self-explanatory",
+        "answer" : 33,
+        "name": "num_spin"
+
+    },        
+    {
+        "num" : 18,
+        "roundName": "Numbers",
+        "roundNum" : 3,
+        "title" : "Agar-ing it",
+        "question" : "How many runs will be scored at number 11?",
+        "answer" : 36,
+        "help" : "Not listed 11, but whoever is the last man in",
+        "name": "num_elevenRuns"
+
+    },
+    {
+        "num" : 19,
+        "roundName" : "Randoms",
+        "roundNum" : 4,
+        "name": "m_warnerBroad",
+        "title": "Broad's Bunny",
+        "explainer" : "",
+        "question" : "How many times will Stuart Broad dismiss David Warner?",
+        "answer" : "2 - 3",
+        "options" : [
+            {
+                "label" : "0 - 1",
+                "value" : "0 - 1"
+            },              
+            {
+                "label" : "2 - 3",
+                "value" : "2 - 3"
+            },              
+            {
+                "label" : "3 - 4",
+                "value" : "3 - 4"
+            },               
+            {
+                "label" : "5 - 6",
+                "value" : "5 - 6"
+            },                
+            {
+                "label" : "7+",
+                "value" : "7+"
+            }
+        
+        ]
+    },
+    {
+        "num" : 20,
+        "roundName" : "Randoms",
+        "roundNum" : 4,
+        "name": "m_venues",
+        "title": "Road House",
+        "help": "Flat pitch or rain, doesn't matter.",
+        "question" : "Which venue will see the fewest wickets fall?",
+        "answer": "Old Trafford",
+        "options" : [
+            {
+                "label" : "Edgbaston",
+                "value" : "Edgbaston"
+            },              
+            {
+                "label" : "Lord's",
+                "value" : "Lord's"
+            },
+            {
+                "label" : "Headingley",
+                "value" : "Headingley"
+            },                
+            {
+                "label" : "Old Trafford",
+                "value" : "Old Trafford"
+            },                
+            {
+                "label" : "The Oval",
+                "value" : "The Oval"
+            }
+        
+        ]
+    },       
+    {
+        "num" : 21,
+        "roundName" : "Randoms",
+        "roundNum" : 4,
+        "name": "m_camGreen",
+        "explainer" : "",
+        "title": "All-round Aussie",
+
+        "question" : "What will be the lower for Cameron Green? His:",
+        "answer" : "Batting Average",
+        "options" : [
+            {
+                "label" : "Batting Average",
+                "value" : "Batting Average"
+            },              
+            {
+                "label" : "Bowling Average",
+                "value" : "Bowling Average"
+            }
+        
+        ]
+    },        
+    {
+        "num" : 22,
+        "roundName" : "Randoms",
+        "roundNum" : 4,
+        "name": "m_firstInns",
+        "title": "Runs on the board",
+        "help": "Takes into account BOTH team's first innings of each Test.",
+        "question" : "What will be the average first innings score?",
+        "answer" : "300 - 349",
+        "options" : [
+            {
+                "label" : "< 200",
+                "value" : "< 200"
+            },              
+            {
+                "label" : "200 - 249",
+                "value" : "200 - 249"
+            },
+            
+            {
+                "label" : "250 - 299",
+                "value" : "250 - 299"
+            },                        
+            {
+                "label" : "300 - 349",
+                "value" : "300 - 349"
+            },                    
+            {
+                "label" : "350+",
+                "value" : "350+"
+            }
+        ]
+    },
+    {
+        "num" : 23,
+        "roundName" : "Randoms",
+        "roundNum" : 4,
+        "name": "m_afterThree",
+        "title": "Scores on the doors",
+        "help": "First three Tests are Edgbaston, Lord's & Headingley",
+        "question" : "After 3 tests, what will the series score be?",
+        "answer" : "1 - 1",
+        "options" : [
+            {
+                "label" : "0 - 0",
+                "value" : "0 - 0"
+            },                       
+            {
+                "label" : "1 - 0 England",
+                "value" : "1 - 0 England"
+            },                       
+            {
+                "label" : "1 - 0 Australia",
+                "value" : "1 - 0 Australia"
+            },   
+            {
+                "label" : "1 - 1",
+                "value" : "1 - 1"
+            },      
+            {
+                "label" : "2 - 0 England",
+                "value" : "2 - 0 England"
+            },  
+            {
+                "label" : "2 - 0 Australia",
+                "value" : "2 - 0 Australia"
+            },  
+            {
+                "label" : "2 - 1 England",
+                "value" : "2 - 1 England"
+            }, 
+            {
+                "label" : "2 - 1 Australia",
+                "value" : "2 - 1 Australia"
+            },
+            {
+                "label" : "3 - 0 England",
+                "value" : "3 - 0 England"
+            },  
+            {
+                "label" : "3 - 0 Australia",
+                "value" : "3 - 0 Australia"
+            }       
+        ]
+    },        
+    {
+        "num" : 24,
+        "roundName" : "Randoms",
+        "roundNum" : 4,
+        "name": "m_tailenders",
+        "title": "Don't let the tail wag",
+        "help": "Batters 9, 10 and 11. eg. Jack Leach as a nightwatchman counts as a tailender",
+        "question" : "What will be the most common method of dismissal for tailenders?",
+        "answer" : "Caught Outfield",
+        "options" : [
+            {
+                "label" : "Bowled",
+                "value" : "Bowled"
+            },
+            {
+                "label" : "Caught Behind",
+                "value" : "Caught Behind"
+            },        
+            {
+                "label" : "Caught Outfield",
+                "value" : "Caught Outfield"
+            }, 
+            {
+                "label" : "LBW",
+                "value" : "LBW"
+            }, 
+            {
+                "label" : "Stumped",
+                "value" : "Stumped"
+            }
+
+        ]
+    },        
+    {
+        "num" : 25,
+        "roundName" : "Randoms",
+        "roundNum" : 4,
+        "name": "m_retirement",
+        "title": "End of an era?",
+        "help" : "Shortly after meaning by the time this quiz is marked",
+        "question" : "Who will annouce their retirement during or shortly after the series?",
+        "answer" : "Stuart Broad",
+        "options" : [
+            {
+                "label" : "Jimmy Anderson",
+                "value" : "Jimmy Anderson"
+            },
+            {
+                "label" : "Stuart Broad",
+                "value" : "Stuart Broad"
+            },            
+            {
+                "label" : "Both",
+                "value" : "Both"
+            },            
+            {
+                "label" : "Neither",
+                "value" : "Neither"
+            }                  
+        ]
+    },
+    {
+        "num" : 26,
+        "title" : "Let's chase",
+        "question" : "England will choose to bowl every time they win a toss.",
+        "answer" : "false",
+        "name": "tf_chase",
+        "roundName" : "True or False",
+        "roundNum" : 5,
+        "options" : [
+            {
+                "label" : "True",
+                "value" : "true"
+            },
+            {
+                "label" : "False",
+                "value" : "false"
+            }
+        ]
+    },         
+    {
+        "num" : 27,
+        "title" : "Woaksy is back",
+        "question" : "Chris Woakes will play at least TWO tests.",
+        "answer" : "true",
+        "name": "tf_woakes",
+        "roundName" : "True or False",
+        "roundNum" : 5,
+        "options" : [
+            {
+                "label" : "True",
+                "value" : "true"
+            },
+            {
+                "label" : "False",
+                "value" : "false"
+            }
+        ]
+
+    },          
+    {
+        "num" : 28,
+        "title": "Roll Them",
+        "question" : "England will take 20 wickets in EVERY test.",
+        "answer" : "true",
+        "name": "tf_20wickets",
+        "roundName" : "True or False",
+        "roundNum" : 5,
+        "options" : [
+            {
+                "label" : "True",
+                "value" : "true"
+            },
+            {
+                "label" : "False",
+                "value" : "false"
+            }
+        ]
+
+    },            
+    {
+        "num" : 29,
+        "title": "Nighthawk",
+        "question" : "Stuart Broad will bat at SIX OR HIGHER at least once",
+        "answer" : "true",
+
+        "help" : "In any scenario",
+        "name": "tf_nighthawk",
+        "roundName" : "True or False",
+        "roundNum" : 5,
+        "options" : [
+            {
+                "label" : "True",
+                "value" : "true"
+            },
+            {
+                "label" : "False",
+                "value" : "false"
+            }
+        ]
+
+    },            
+    {
+        "num" : 30,
+        "title": "Jason Roy'd",
+        "question" : "England will drop a batter during the series.",
+        "answer" : "false",
+        "help" : "Out of the team, not down the order",
+        "name": "tf_batterDrop",
+        "roundName" : "True or False",
+        "roundNum" : 5,
+        "options" : [
+            {
+                "label" : "True",
+                "value" : "true"
+            },
+            {
+                "label" : "False",
+                "value" : "false"
+            }
+        ]
+
+    },             
+    {
+        "num" : 31,
+        "title": "Runs at the top",
+        "question" : "Any opener (for either team) will score more runs than Rory Burns in 2019 (390).",
+        "answer" : "false",
+
+        "name": "tf_moreThanBurns",
+        "roundName" : "True or False",
+        "roundNum" : 5,
+        "options" : [
+            {
+                "label" : "True",
+                "value" : "true"
+            },
+            {
+                "label" : "False",
+                "value" : "false"
+            }
+        ]
+
+    },            
+    {
+        "num" : 32,
+        "title": "Baz Ball",
+        "question" : "England will score 175+ in a session",
+        "answer" : "false",
+
+        "name": "tf_bazBall",
+        "roundName" : "True or False",
+        "roundNum" : 5,
+        "options" : [
+            {
+                "label" : "True",
+                "value" : "true"
+            },
+            {
+                "label" : "False",
+                "value" : "false"
+            }
+        ]
+
+    },           
+    {
+        "num" : 33,
+        "title": "Return of the Beard",
+        "question" : "Moeen Ali will take at least 10 wickets",
+        "answer" : "true",
+
+        "name": "tf_moeen",
+        "roundName" : "True or False",
+        "roundNum" : 5,
+        "options" : [
+            {
+                "label" : "True",
+                "value" : "true"
+            },
+            {
+                "label" : "False",
+                "value" : "false"
+            }
+        ]
+
+    },             
+    {
+        "num" : 34,
+        "title": "It's been a while...",
+        "question" : "Joe Root will score a hundred",
+        "help" : "His last Ashes hundred was at Trent Bridge 2015",
+
+        "name": "tf_rootTon",
+        "roundName" : "True or False",
+        "roundNum" : 5,
+        "answer": "true",
+        "options" : [
+            {
+                "label" : "True",
+                "value" : "true"
+            },
+            {
+                "label" : "False",
+                "value" : "false"
+            }
+        ]
+
+    },          
+    {
+        "num" : 35,
+        "title": "Dead Rubber",
+        "help": "By 'decided', we mean the winner or retainer of the Ashes",
+        "question" : "The Ashes will be decided before the 5th Test.",
+        "answer" : "false",
+
+        "name": "tf_decided",
+        "roundName" : "True or False",
+        "roundNum" : 5,
+        "options" : [
+            {
+                "label" : "True",
+                "value" : "true"
+            },
+            {
+                "label" : "False",
+                "value" : "false"
+            }
+        ]
+
+    }  
+
+
+
+
+]

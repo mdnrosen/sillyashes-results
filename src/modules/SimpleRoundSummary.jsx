@@ -1,15 +1,14 @@
 import React from 'react'
 
-import { Chip, Accordion, AccordionDetails, AccordionSummary, Box, Typography, Toolbar, ListItem, ListItemAvatar, ListItemText, CircularProgress, Stack,   } from '@mui/material'
+import { Chip, Accordion, AccordionDetails, AccordionSummary, Box, Typography, Toolbar, ListItem, ListItemAvatar, ListItemText, Stack } from '@mui/material'
 import { ExpandMore, Check, Close } from '@mui/icons-material'
-
-
+import { Percentage } from '../components/Percentage'
+import { PercentageSimple } from '../components/PercentageSimple'
 
 
 export const SimpleRoundSummary = ({ questions }) => {
 
     const score = questions.reduce((a, b) => a + b.points, 0)
-    console.log(`${score}/${questions.length * 5}`) 
   return (
     <Accordion>
       <AccordionSummary
@@ -27,7 +26,7 @@ export const SimpleRoundSummary = ({ questions }) => {
                 <Typography variant="h6">Round 1 - Head to Head</Typography>
               }
               secondary={
-                <Typography variant="overline">{score}/{questions.length * 5}</Typography>
+                <Typography variant="body1">{score}/{questions.length * 5}</Typography>
               }
             />
           </ListItem>
@@ -63,26 +62,26 @@ export const SimpleRoundSummary = ({ questions }) => {
                         </ListItemAvatar>
                         <ListItemText 
                             primary={
-                                <Typography variant="body1">{q.questionTitle}</Typography>
+                                <Typography variant="h6">{q.questionTitle}</Typography>
                             }
                             secondary={
                                 q.question ?
-                                <Typography variant="body2">{q.question}</Typography>
+                                <Typography variant="overline">{q.question}</Typography>
                                 : null
                             }
                         />
                     </ListItem>
                 </Toolbar>
-                <Toolbar>
-                    <Stack direction="row" spacing={2} justifyContent="space-between" sx={{ p: 1 }}>
-                        {q.options.map(opt => 
+                <Toolbar
+                sx={{ p: 1,  display: 'flex', flexWrap: 'wrap' }}   >
+                                      {q.options.map(opt => 
                             <Chip 
+                                sx={{ m: 1}}
                                 label={opt} 
                                 variant={q.guessed === opt ? 'contained' : 'outlined'}
                                 color={q.correctAnswer.includes(opt) ? 'success' : 'error'}
                             />
                         )}
-                    </Stack>
                 </Toolbar>
             </Box>
 
