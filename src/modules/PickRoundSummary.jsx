@@ -1,8 +1,9 @@
 import React from 'react'
 import { Chip, Accordion, AccordionDetails, AccordionSummary, Box, Typography, Toolbar, ListItem, ListItemAvatar, ListItemText, Stack } from '@mui/material'
 import { ExpandMore, Check, Close } from '@mui/icons-material'
+import { Percentage } from '../components/Percentage'
 
-export const PickRoundSummary = ({ questions }) => {
+export const PickRoundSummary = ({ questions, player }) => {
     const score = questions.reduce((a, b) => a + b.points, 0)
 
 
@@ -114,9 +115,7 @@ export const PickRoundSummary = ({ questions }) => {
             <Toolbar disableGutters>
                 <ListItem>
                 <ListItemAvatar>
-                    <Typography variant="h6">
-                    %%
-                    </Typography>
+                    <Percentage percent={player.percent} percentile={player.positionPercentile} />
                 </ListItemAvatar>
                 <ListItemText 
                     primary={

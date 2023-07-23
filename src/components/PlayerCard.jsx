@@ -55,7 +55,7 @@ export const PlayerCard = ({ player }) => {
                 />
 
             </ListItem>
-            <Percentage percent={player.percent} percentile={player.positionPercentile} />
+            <Percentage width={{ xs: '20%', sm: '15%', md: '12.5%' }} percent={player.percent} percentile={player.positionPercentile} />
         </Box>
     </Link>
   )

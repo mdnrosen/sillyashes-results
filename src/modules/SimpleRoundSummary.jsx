@@ -6,7 +6,7 @@ import { Percentage } from '../components/Percentage'
 import { PercentageSimple } from '../components/PercentageSimple'
 
 
-export const SimpleRoundSummary = ({ questions }) => {
+export const SimpleRoundSummary = ({ questions, player }) => {
 
     const score = questions.reduce((a, b) => a + b.points, 0)
   return (
@@ -16,10 +16,8 @@ export const SimpleRoundSummary = ({ questions }) => {
       >
         <Toolbar disableGutters>
           <ListItem>
-            <ListItemAvatar>
-              <Typography variant="h6">
-                %%
-              </Typography>
+            <ListItemAvatar >
+                <Percentage percent={player.percent} percentile={player.positionPercentile} />
             </ListItemAvatar>
             <ListItemText 
               primary={
