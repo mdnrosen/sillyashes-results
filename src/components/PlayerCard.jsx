@@ -9,7 +9,7 @@ import { trophyDisplay, posSfx } from '../utils/helpers'
 import { Percentage } from './Percentage'
 
 export const PlayerCard = ({ player }) => {
-    console.log(player)
+    
   return (
     <Link to={`/${player.id}`} key={player.id}>
         <Box

@@ -9,6 +9,9 @@ import { PercentageSimple } from '../components/PercentageSimple'
 export const SimpleRoundSummary = ({ questions, player }) => {
 
     const score = questions.reduce((a, b) => a + b.points, 0)
+
+  const percentage = Math.round((score / (questions.length * 5)) * 100)
+
   return (
     <Accordion sx={{ m: 2}}>
       <AccordionSummary
@@ -17,7 +20,7 @@ export const SimpleRoundSummary = ({ questions, player }) => {
         <Toolbar disableGutters>
           <ListItem>
             <ListItemAvatar >
-                <Percentage percent={player.percent} percentile={player.positionPercentile} />
+                <Percentage percent={percentage} percentile={percentage + 10} />
             </ListItemAvatar>
             <ListItemText 
               primary={
