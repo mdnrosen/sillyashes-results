@@ -92,7 +92,7 @@
         "questionNum": 6,
         "questionName": "h2h_runs_aus",
         "answer": [
-            "Steve Smith"
+            "Marnus Labuschagne"
         ],
         "options": [
             "Steve Smith",
@@ -148,7 +148,8 @@
             "Joe Root",
             "Mitch Marsh",
             "Steve Smith",
-            "Zak Crawley"
+            "Zak Crawley",
+            "Marnus Labuschagne"
         ],
         "questionTitle": "Ton Up",
         "question": "Pick EVERY batter that will score a hundred."
@@ -178,7 +179,8 @@
             "Mark Wood",
             "Pat Cummins",
             "Mitchell Starc",
-            "Chris Woakes"
+            "Chris Woakes",
+            "Josh Hazlewood"
         ],
         "questionTitle": "5-fers!",
         "question": "Pick EVERY bowler who will take a 5fer"
@@ -221,7 +223,7 @@
         },
         "questionNum": 15,
         "questionName": "num_wk",
-        "answer": 42,
+        "answer": 44,
         "questionTitle": "In the gloves",
         "question": "How many wicket keeper catches?"
     },
@@ -232,7 +234,7 @@
         },
         "questionNum": 16,
         "questionName": "num_stokesSR",
-        "answer": 68,
+        "answer": 66,
         "questionTitle": "Go Hard",
         "question": "What will Ben Stokes' batting strike rate be?"
     },
@@ -243,7 +245,7 @@
         },
         "questionNum": 17,
         "questionName": "num_spin",
-        "answer": 33,
+        "answer": 30,
         "questionTitle": "Nice Garry",
         "question": "How many wickets will fall to spin?"
     },
@@ -254,7 +256,7 @@
         },
         "questionNum": 18,
         "questionName": "num_elevenRuns",
-        "answer": 29,
+        "answer": 54,
         "questionTitle": "Agar-ing it",
         "question": "How many runs will be scored at number 11?"
     },
@@ -308,7 +310,7 @@
         },
         "questionNum": 22,
         "questionName": "m_firstInns",
-        "answer": "300 - 349",
+        "answer": "350+",
         "questionTitle": "Runs on the board",
         "question": "What will be the average first innings score?",
         "options" : [
@@ -452,7 +454,7 @@
         ],
         "questionNum": 31,
         "questionName": "tf_moreThanBurns",
-        "answer": "false",
+        "answer": "true",
         "questionTitle": "Runs at the top",
         "question": "Any opener (for either team) will score more runs than Rory Burns in 2019 (390)."
     },
