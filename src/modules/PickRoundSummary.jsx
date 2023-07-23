@@ -1,5 +1,5 @@
 import React from 'react'
-import { Chip, Accordion, AccordionDetails, AccordionSummary, Box, Typography, Toolbar, ListItem, ListItemAvatar, ListItemText, Stack } from '@mui/material'
+import { Container, Chip, Accordion, AccordionDetails, AccordionSummary, Box, Typography, Toolbar, ListItem, ListItemAvatar, ListItemText, Stack } from '@mui/material'
 import { ExpandMore, Check, Close } from '@mui/icons-material'
 import { Percentage } from '../components/Percentage'
 import { getRoundPercentage } from '../utils/helpers'
@@ -54,9 +54,9 @@ export const PickRoundSummary = ({ questions, player }) => {
                         <Typography variant="overline">CORRECT:</Typography>
                     }
                     secondary={
-                        <Stack direction="row" spacing={1}>
-                            {q.correct.map(c => <Chip key={c} label={c} color="success" />)}
-                        </Stack>
+                        <Toolbar  disableGutters sx={{ display: 'flex', flexWrap: 'wrap'}}>
+                            {q.correct.map(c => <Chip key={c} label={c} sx={{m: 1}} color="success" />)}
+                        </Toolbar>
                     }
                 />
             </ListItem>
@@ -72,9 +72,9 @@ export const PickRoundSummary = ({ questions, player }) => {
                         <Typography variant="overline">WRONG:</Typography>
                     }
                     secondary={
-                        <Stack direction="row" spacing={1}>
-                            {q.wrong.map(c => <Chip key={c} label={c} color="error" />)}
-                        </Stack>
+                        <Toolbar  disableGutters sx={{ display: 'flex', flexWrap: 'wrap'}}>
+                            {q.wrong.map(c => <Chip key={c} label={c} sx={{m: 1}} color="error" />)}
+                        </Toolbar>
                     }
                 />
             </ListItem>
@@ -90,11 +90,9 @@ export const PickRoundSummary = ({ questions, player }) => {
                         <Typography variant="overline">MISSED:</Typography>
                     }
                     secondary={
-                        <Box sx={{ display: 'flex', flexWrap: 'wrap'}}>
-                            {q.missed.map(c => <Chip sx={{m: 1}} key={c} label={c} variant="outlined" color="error" />)}
-
-                        </Box>
-
+                        <Toolbar  disableGutters sx={{ display: 'flex', flexWrap: 'wrap'}}>
+                            {q.correct.map(c => <Chip key={c} label={c} sx={{m: 1}} variant="outlined" color="error" />)}
+                        </Toolbar>
                     }
                 />
             </ListItem>
@@ -111,7 +109,7 @@ export const PickRoundSummary = ({ questions, player }) => {
 
 
   return (
-    <Accordion sx={{ m: 2}}>
+    <Accordion sx={{ m: 2 }}>
         <AccordionSummary
             expandIcon={<ExpandMore />}
         >

@@ -23,7 +23,7 @@ export const Player = () => {
     
   return (
     player ? (
-    <Box key={player.id}>
+    <Box key={player.id} sx={{ width: '100%' }}>
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign: 'center' }}>
           {player.name}
