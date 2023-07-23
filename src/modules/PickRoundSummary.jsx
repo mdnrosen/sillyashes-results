@@ -1,10 +1,14 @@
 import React from 'react'
 import { Chip, Accordion, AccordionDetails, AccordionSummary, Box, Typography, Toolbar, ListItem, ListItemAvatar, ListItemText, Stack } from '@mui/material'
 import { ExpandMore, Check, Close } from '@mui/icons-material'
+import { Percentage } from '../components/Percentage'
+import { getRoundPercentage } from '../utils/helpers'
 
-export const PickRoundSummary = ({ questions }) => {
+
+export const PickRoundSummary = ({ questions, player }) => {
     const score = questions.reduce((a, b) => a + b.points, 0)
 
+    const percentage = getRoundPercentage(score, questions)
 
     const renderQuack = () => {
 
@@ -114,9 +118,14 @@ export const PickRoundSummary = ({ questions }) => {
             <Toolbar disableGutters>
                 <ListItem>
                 <ListItemAvatar>
-                    <Typography variant="h6">
-                    %%
-                    </Typography>
+                    {/* I'm not sure a percentage score works for Pick Round Summaries...? */}
+                    {/* Top/bottom scores result in values like 208% or -80% */}
+                    {/* Would a different, points gained, points lost work better? */}
+                    {/* e.g.: +45 / -30 */}
+                    <Percentage 
+                      percent={percentage} 
+                      percentile={percentage + 10} /* +10 is to provide greener colour for relatively lower scores */ 
+                    /> 
                 </ListItemAvatar>
                 <ListItemText 
                     primary={
@@ -125,6 +134,7 @@ export const PickRoundSummary = ({ questions }) => {
                     </Typography>
                     }
                     secondary={
+                    // see above: does score / number of questions work? You see values like 51/25 or -20/25...
                     <Typography variant="body1">{score}/{questions.length * 5}</Typography>
                     }
                 />

@@ -6,12 +6,12 @@ import { setCircleStrokeColour } from '../utils/helpers'
 
 import './percentage.css'
 
-export const Percentage = ({ percent, percentile }) => {
+export const Percentage = ({ percent, percentile, width }) => {
     
     const circleColour = setCircleStrokeColour(percentile)
 
     return (
-        <Box position={'relative'} width={{ xs: '20%', sm: '15%', md: '12.5%' }}>
+        <Box position={'relative'} width={width}>
             <svg viewBox="0 0 36 36" className='circular-chart'>
                 <path
                     className='circle'

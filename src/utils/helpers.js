@@ -79,3 +79,7 @@ export const trophyDisplay = position => {
     trophy.display = true
     return trophy
 }
+
+export const getRoundPercentage = (score, questions) => {
+    return Math.round((score / (questions.length * 5)) * 100)
+}

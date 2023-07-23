@@ -35,6 +35,7 @@ export const Player = () => {
         {posSfx(player.position)}
         </Typography>
           <Percentage
+            width={{ xs: '20%', sm: '15%', md: '12.5%' }}
             percent={player.percent}
             percentile={player.positionPercentile}
           />

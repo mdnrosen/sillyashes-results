@@ -3,12 +3,14 @@ import React from 'react'
 import { Chip, Accordion, AccordionDetails, AccordionSummary, Box, Typography, Toolbar, ListItem, ListItemAvatar, ListItemText, Stack } from '@mui/material'
 import { ExpandMore, Check, Close } from '@mui/icons-material'
 import { Percentage } from '../components/Percentage'
-import { PercentageSimple } from '../components/PercentageSimple'
+import { getRoundPercentage } from '../utils/helpers'
 
-
-export const SimpleRoundSummary = ({ questions }) => {
+export const SimpleRoundSummary = ({ questions, player }) => {
 
     const score = questions.reduce((a, b) => a + b.points, 0)
+
+  const percentage = getRoundPercentage(score, questions)
+
   return (
     <Accordion sx={{ m: 2}}>
       <AccordionSummary
@@ -16,10 +18,11 @@ export const SimpleRoundSummary = ({ questions }) => {
       >
         <Toolbar disableGutters>
           <ListItem>
-            <ListItemAvatar>
-              <Typography variant="h6">
-                %%
-              </Typography>
+            <ListItemAvatar >
+                <Percentage 
+                  percent={percentage} 
+                  percentile={percentage + 10} /* +10 is to provide greener colour for relatively lower scores */ 
+                /> 
             </ListItemAvatar>
             <ListItemText 
               primary={
