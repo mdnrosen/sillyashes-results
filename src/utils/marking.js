@@ -60,6 +60,7 @@ const markAll = (person) => {
                     guessed, guessed,
                     correctAnswer: answer,
                     points,
+                    questionTitle,
                     correct,
                     wrong,
                     missed

@@ -10,7 +10,7 @@ export const SimpleRoundSummary = ({ questions }) => {
 
     const score = questions.reduce((a, b) => a + b.points, 0)
   return (
-    <Accordion>
+    <Accordion sx={{ m: 2}}>
       <AccordionSummary
         expandIcon={<ExpandMore />}
       >
@@ -23,7 +23,9 @@ export const SimpleRoundSummary = ({ questions }) => {
             </ListItemAvatar>
             <ListItemText 
               primary={
-                <Typography variant="h6">Round 1 - Head to Head</Typography>
+                <Typography variant="h6">
+                  Round {questions[0].roundNumber} - {questions[0].roundName}
+                </Typography>
               }
               secondary={
                 <Typography variant="body1">{score}/{questions.length * 5}</Typography>
@@ -34,8 +36,8 @@ export const SimpleRoundSummary = ({ questions }) => {
 
       </AccordionSummary>
       <AccordionDetails>
-        {questions.map(q => (
-            <Box key={q.questionName}>
+        {questions.map((q, i) => (
+            <Box key={q.questionName + i}>
                 <Toolbar disableGutters sx={{ p: 1, borderTop: '1px solid grey'}}>
                     <ListItem
                         secondaryAction={
@@ -74,8 +76,9 @@ export const SimpleRoundSummary = ({ questions }) => {
                 </Toolbar>
                 <Toolbar
                 sx={{ p: 1,  display: 'flex', flexWrap: 'wrap' }}   >
-                                      {q.options.map(opt => 
+                          {q.options.map((opt, i) => 
                             <Chip 
+                              key={i}
                                 sx={{ m: 1}}
                                 label={opt} 
                                 variant={q.guessed === opt ? 'contained' : 'outlined'}

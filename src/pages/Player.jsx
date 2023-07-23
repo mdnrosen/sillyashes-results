@@ -8,7 +8,7 @@ import { posSfx } from '../utils/helpers'
 import { ExpandMore } from '@mui/icons-material'
 import { SimpleRoundSummary } from '../modules/SimpleRoundSummary'
 
-
+import { PickRoundSummary } from '../modules/PickRoundSummary'
 
 export const Player = () => {
     const people = useContext(PeopleContext)
@@ -44,6 +44,11 @@ export const Player = () => {
       <SimpleRoundSummary 
         player={player}
         questions={player.results.filter(p => p.roundNumber === 1)}
+      />
+
+      <PickRoundSummary 
+        player={player}
+        questions={player.results.filter(p => p.roundNumber === 2)}
       />
       <SimpleRoundSummary 
         player={player}
