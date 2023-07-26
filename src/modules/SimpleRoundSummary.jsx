@@ -7,7 +7,7 @@ import { getRoundPercentage } from '../utils/helpers'
 
 export const SimpleRoundSummary = ({ questions, player }) => {
 
-    const score = questions.reduce((a, b) => a + b.points, 0)
+  const score = questions.reduce((a, b) => a + b.points, 0)
 
   const percentage = getRoundPercentage(score, questions)
 
@@ -18,7 +18,7 @@ export const SimpleRoundSummary = ({ questions, player }) => {
       >
         <Toolbar disableGutters>
           <ListItem>
-            <ListItemAvatar >
+            <ListItemAvatar sx={{ mr: 2}}>
                 <Percentage 
                   percent={percentage} 
                   percentile={percentage + 10} /* +10 is to provide greener colour for relatively lower scores */ 
@@ -60,14 +60,14 @@ export const SimpleRoundSummary = ({ questions, player }) => {
                             </Box>                      
                         }
                     >
-                        <ListItemAvatar>
+                        {/* <ListItemAvatar>
                             <Typography variant="h6">
                                 Q{q.questionNumber}
                             </Typography>
-                        </ListItemAvatar>
+                        </ListItemAvatar> */}
                         <ListItemText 
                             primary={
-                                <Typography variant="overline">{q.questionTitle}</Typography>
+                                <Typography variant="overline">{`Q${q.questionNumber} - ${q.questionTitle}`}</Typography>
                             }
                             secondary={
                                 q.question ?

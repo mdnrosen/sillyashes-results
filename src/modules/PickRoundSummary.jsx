@@ -6,12 +6,65 @@ import { getRoundPercentage } from '../utils/helpers'
 
 
 export const PickRoundSummary = ({ questions, player }) => {
+
+
+
+    // variables of max scores if harry fancies gradients for picks
+    const maxSixes = 14
+    const maxFullStraight = 5
+    const maxDucks = 1
+
+
     const score = questions.reduce((a, b) => a + b.points, 0)
 
     const percentage = getRoundPercentage(score, questions)
 
-    const renderQuack = () => {
+    const renderQuack = (q, i ) => {
+        console.log(q)
+        return (
+            <Box key={i}>
+                <Toolbar disableGutters sx={{ p: 1, borderTop: '1px solid grey'}}>
+                    <ListItem
+                        secondaryAction={
+                            <Stack direction="row" alignItems="center" sx={{ color: 'success'}}>
+                                <Typography sx={{ ml: 1, color: 'success'}}variant="body1">{q.points}</Typography>
+                            </Stack>
+                        }> 
+                            <ListItemText 
+                                primary={
+                                    <Typography variant="h6">{`Q${q.questionNumber} - ${q.questionTitle}`}</Typography>
+                                }
+                                secondary={
+                                    <Typography variant="overline">{q.question}</Typography>
+                            }
+                        />
+                    </ListItem>
+                </Toolbar>
+                {q.guessed.map(p => {
+                    const ducks = q.correctAnswer.filter(a => a === p).length
+                    return (
+                        <Toolbar>
+                            <ListItem
+                                secondaryAction={
+                                    <Typography variant="body1">{ducks * 3}</Typography>
+                                }
+                            >
+                                <ListItemText 
+                                    primary={
+                                        <Box>
+                                            <Chip label={p} color="primary" sx={{ mr: 2}} />
+                                            <Typography variant="overline">{ducks !== 1 ? `${ducks} Ducks` : `${ducks} Duck`}</Typography>
 
+                                        </Box>
+                                    }
+
+                                />
+                            </ListItem>
+                        </Toolbar>
+                    )
+                })}
+            </Box>
+        )
     }
 
     const renderTonFive = (q, i) => {
@@ -26,14 +79,13 @@ export const PickRoundSummary = ({ questions, player }) => {
                 }
 
             >
-            <ListItemAvatar>
-                <Typography variant="h6">
-                    Q{q.questionNumber}
-                </Typography>
-            </ListItemAvatar>
+            {/* <ListItemAvatar>
+            <Typography variant="h6">{q.correct.length * 5}</Typography>
+
+            </ListItemAvatar> */}
                 <ListItemText 
                 primary={
-                    <Typography variant="h6">{q.questionTitle}</Typography>
+                    <Typography variant="h6">{`Q${q.questionNumber} - ${q.questionTitle}`}</Typography>
                 }
                 secondary={
                     q.question ?
@@ -91,7 +143,7 @@ export const PickRoundSummary = ({ questions, player }) => {
                     }
                     secondary={
                         <Toolbar  disableGutters sx={{ display: 'flex', flexWrap: 'wrap'}}>
-                            {q.correct.map(c => <Chip key={c} label={c} sx={{m: 1}} variant="outlined" color="error" />)}
+                            {q.missed.map(c => <Chip key={c} label={c} sx={{m: 1}} variant="outlined" color="error" />)}
                         </Toolbar>
                     }
                 />
@@ -102,8 +154,49 @@ export const PickRoundSummary = ({ questions, player }) => {
     }
 
 
-    const renderSixesFull = () => {
+    const renderSixesFull = (q, i) => {
+        return (
+            <Box key={i}>
+                <Toolbar disableGutters sx={{ p: 1, borderTop: '1px solid grey'}}>
+                    <ListItem
+                        secondaryAction={
+                            <Stack direction="row" alignItems="center" sx={{ color: 'success'}}>
+                                <Typography sx={{ ml: 1, color: 'success'}}variant="body1">{q.points}</Typography>
+                            </Stack>
+                        }> 
+                            <ListItemText 
+                                primary={
+                                    <Typography variant="h6">{`Q${q.questionNumber} - ${q.questionTitle}`}</Typography>
+                                }
+                                secondary={
+                                    <Typography variant="overline">{q.question}</Typography>
+                              }
+                        />
+                    </ListItem>
+                </Toolbar>
+                {q.guessed.map(g =>
+                    <Toolbar>
+                        <ListItem
+                            secondaryAction={
+                                <Typography variant="body1">{g.num * 2}</Typography>
+                            }
+                        >
+                            <ListItemText 
+                                primary={
+                                    <Box>
+                                        <Chip label={g.player} color="primary" sx={{ mr: 2}} />
+                                        <Typography variant="overline">{`${g.num} total`}</Typography>
 
+                                    </Box>
+                                }
+    
+                            />
+                        </ListItem>
+                    </Toolbar>
+                
+                )}
+            </Box>
+        )
     }
 
 
@@ -133,7 +226,7 @@ export const PickRoundSummary = ({ questions, player }) => {
                     }
                     secondary={
                     // see above: does score / number of questions work? You see values like 51/25 or -20/25...
-                    <Typography variant="body1">{score}/{questions.length * 5}</Typography>
+                        <Typography variant="body1">{score}/{questions.length * 5}</Typography>
                     }
                 />
                 </ListItem>
@@ -143,6 +236,11 @@ export const PickRoundSummary = ({ questions, player }) => {
             {questions.map((q, index) => {
                 if (q.questionName === 'tons' || q.questionName === '5fers') {
                     return renderTonFive(q, index)
+                } else if (q.questionName === 'quack') {
+                    return renderQuack(q, index)
+                } else {
+                    return renderSixesFull(q, index)
+    
                 }
             })}
         </AccordionDetails>
