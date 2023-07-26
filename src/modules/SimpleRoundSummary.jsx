@@ -12,7 +12,20 @@ export const SimpleRoundSummary = ({ questions, player }) => {
   const percentage = getRoundPercentage(score, questions)
 
   return (
-    <Accordion sx={{ m: 2}}>
+    <Box
+    boxShadow={2}
+    sx={{
+        display: 'flex',
+        justifyContent: 'spaceBetween',
+        alignItems: 'center',
+        m: 2,
+        border: '1px solid #ccc',
+        borderRadius: '0.5rem',
+        textDecoration: 'none',
+        color: 'inherit'
+    }}
+>
+    <Accordion sx={{ m: 2, border: 0, boxShadow: 0, width: '100%' }}>
       <AccordionSummary
         expandIcon={<ExpandMore />}
       >
@@ -95,5 +108,6 @@ export const SimpleRoundSummary = ({ questions, player }) => {
 
       </AccordionDetails>
       </Accordion>
+      </Box>
   )
 }

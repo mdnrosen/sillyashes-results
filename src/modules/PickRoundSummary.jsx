@@ -7,8 +7,6 @@ import { getRoundPercentage } from '../utils/helpers'
 
 export const PickRoundSummary = ({ questions, player }) => {
 
-
-
     // variables of max scores if harry fancies gradients for picks
     const maxSixes = 14
     const maxFullStraight = 5
@@ -20,7 +18,6 @@ export const PickRoundSummary = ({ questions, player }) => {
     const percentage = getRoundPercentage(score, questions)
 
     const renderQuack = (q, i ) => {
-        console.log(q)
         return (
             <Box key={i}>
                 <Toolbar disableGutters sx={{ p: 1, borderTop: '1px solid grey'}}>
@@ -32,11 +29,11 @@ export const PickRoundSummary = ({ questions, player }) => {
                         }> 
                             <ListItemText 
                                 primary={
-                                    <Typography variant="h6">{`Q${q.questionNumber} - ${q.questionTitle}`}</Typography>
+                                    <Typography variant="overline">{`Q${q.questionNumber} - ${q.questionTitle}`}</Typography>
                                 }
                                 secondary={
-                                    <Typography variant="overline">{q.question}</Typography>
-                            }
+                                    <Typography variant="body2">{q.question}</Typography>
+                                }
                         />
                     </ListItem>
                 </Toolbar>
@@ -57,7 +54,6 @@ export const PickRoundSummary = ({ questions, player }) => {
 
                                         </Box>
                                     }
-
                                 />
                             </ListItem>
                         </Toolbar>
@@ -85,11 +81,11 @@ export const PickRoundSummary = ({ questions, player }) => {
             </ListItemAvatar> */}
                 <ListItemText 
                 primary={
-                    <Typography variant="h6">{`Q${q.questionNumber} - ${q.questionTitle}`}</Typography>
+                    <Typography variant="overline">{`Q${q.questionNumber} - ${q.questionTitle}`}</Typography>
                 }
                 secondary={
                     q.question ?
-                    <Typography variant="overline">{q.question}</Typography>
+                    <Typography variant="body2">{q.question}</Typography>
                     : null
                 }
             />
@@ -166,10 +162,10 @@ export const PickRoundSummary = ({ questions, player }) => {
                         }> 
                             <ListItemText 
                                 primary={
-                                    <Typography variant="h6">{`Q${q.questionNumber} - ${q.questionTitle}`}</Typography>
+                                    <Typography variant="overline">{`Q${q.questionNumber} - ${q.questionTitle}`}</Typography>
                                 }
                                 secondary={
-                                    <Typography variant="overline">{q.question}</Typography>
+                                    <Typography variant="body2">{q.question}</Typography>
                               }
                         />
                     </ListItem>
@@ -202,7 +198,17 @@ export const PickRoundSummary = ({ questions, player }) => {
 
 
   return (
-    <Accordion sx={{ m: 2 }}>
+    <Box sx={{
+        display: 'flex',
+        justifyContent: 'spaceBetween',
+        alignItems: 'center',
+        m: 2,
+        border: '1px solid #ccc',
+        borderRadius: '0.5rem',
+        textDecoration: 'none',
+        color: 'inherit'
+    }}>
+    <Accordion sx={{ m: 2, border: 0, boxShadow: 0, width: '100%' }}>
         <AccordionSummary
             expandIcon={<ExpandMore />}
         >
@@ -245,5 +251,6 @@ export const PickRoundSummary = ({ questions, player }) => {
             })}
         </AccordionDetails>
     </Accordion>
+    </Box>
   )
 }
