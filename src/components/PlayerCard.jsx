@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 import { Box, Typography, ListItem, ListItemText, ListItemAvatar } from '@mui/material'
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 
-import { trophyDisplay, posSfx } from '../utils/helpers'
+import { trophyDisplay, posSfx, getRoundPercentage, getPerc } from '../utils/helpers'
 
-import { Percentage } from './Percentage'
+import { PercentageSimple } from './PercentageSimple';
 
 export const PlayerCard = ({ player }) => {
 
@@ -18,8 +18,8 @@ export const PlayerCard = ({ player }) => {
                 display: 'flex',
                 justifyContent: 'spaceBetween',
                 alignItems: 'center',
-                p: 2,
-                m: 2,
+                p: { xs: 1, md: 2},
+                m: { xs: 1, md: 2},
                 border: '1px solid #ccc',
                 borderRadius: '0.5rem',
                 textDecoration: 'none',
@@ -45,17 +45,17 @@ export const PlayerCard = ({ player }) => {
                 <ListItemText 
                     primary={
                         <Typography variant="h6" color="text.primary">
-                            {player.name}
+                            {player.name.toUpperCase()}
                         </Typography>}
                     secondary={
-                        <Typography variant="body1" color="text.primary">
+                        <Typography variant="overline" color="text.primary">
                             {`${player.totalScore} pts`}
                         </Typography>
                     }
                 />
 
             </ListItem>
-            <Percentage width={{ xs: '20%', sm: '15%', md: '12.5%' }} percent={player.percent} percentile={player.positionPercentile} />
+            <PercentageSimple value={getPerc(player.totalScore, 262)} />
         </Box>
     </Link>
   )

@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { Chip, Accordion, AccordionDetails, AccordionSummary, Box, Typography, Toolbar, ListItem, ListItemAvatar, ListItemText, Stack } from '@mui/material'
+import { Chip, Accordion, AccordionDetails, AccordionSummary, Box, CircularProgress, Typography, Toolbar, ListItem, ListItemAvatar, ListItemText, Stack } from '@mui/material'
 import { ExpandMore, Check, Close } from '@mui/icons-material'
-import { Percentage } from '../components/Percentage'
-import { getRoundPercentage } from '../utils/helpers'
+import { PercentageSimple } from '../components/PercentageSimple'
+import { capitalFirst, getRoundPercentage } from '../utils/helpers'
 
 export const SimpleRoundSummary = ({ questions, player }) => {
 
@@ -18,24 +18,22 @@ export const SimpleRoundSummary = ({ questions, player }) => {
         display: 'flex',
         justifyContent: 'spaceBetween',
         alignItems: 'center',
-        m: 2,
+        m: { xs: 1, md: 2},
+        py: { xs: 1, md: 2},
         border: '1px solid #ccc',
         borderRadius: '0.5rem',
         textDecoration: 'none',
         color: 'inherit'
     }}
 >
-    <Accordion sx={{ m: 2, border: 0, boxShadow: 0, width: '100%' }}>
+    <Accordion sx={{ border: 0, boxShadow: 0, width: '100%' }}>
       <AccordionSummary
         expandIcon={<ExpandMore />}
       >
         <Toolbar disableGutters>
           <ListItem>
             <ListItemAvatar sx={{ mr: 2}}>
-                <Percentage 
-                  percent={percentage} 
-                  percentile={percentage + 10} /* +10 is to provide greener colour for relatively lower scores */ 
-                /> 
+              <PercentageSimple value={percentage} />
             </ListItemAvatar>
             <ListItemText 
               primary={
@@ -62,22 +60,17 @@ export const SimpleRoundSummary = ({ questions, player }) => {
                                 {q.correct ?
                                 <Stack direction="row" alignItems="center" sx={{ color: 'success'}}>
                                     <Check color="success"/>
-                                    <Typography sx={{ ml: 1, color: 'green' }}variant="body1">+5</Typography>
+                                    <Typography sx={{ color: 'green' }}variant="body1">+5</Typography>
                                 </Stack>
                                 :
                                 <Stack direction="row" alignItems="center" sx={{ color: 'red'}}>
                                     <Close color="red"/>
-                                    <Typography sx={{ ml: 1 }}variant="body1">0</Typography>
+                                    <Typography variant="body1">0</Typography>
                                 </Stack>  
                         }
                             </Box>                      
                         }
                     >
-                        {/* <ListItemAvatar>
-                            <Typography variant="h6">
-                                Q{q.questionNumber}
-                            </Typography>
-                        </ListItemAvatar> */}
                         <ListItemText 
                             primary={
                                 <Typography variant="overline">{`Q${q.questionNumber} - ${q.questionTitle}`}</Typography>
@@ -96,7 +89,7 @@ export const SimpleRoundSummary = ({ questions, player }) => {
                             <Chip 
                               key={i}
                                 sx={{ m: 1}}
-                                label={opt} 
+                                label={capitalFirst(opt)} 
                                 variant={q.guessed === opt ? 'contained' : 'outlined'}
                                 color={q.correctAnswer.includes(opt) ? 'success' : 'error'}
                             />

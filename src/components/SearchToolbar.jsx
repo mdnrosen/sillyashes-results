@@ -10,7 +10,7 @@ export const SearchToolbar = ({ searchChangeHandler }) => {
             width={'100%'}
             sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', backgroundColor: 'transparent', boxShadow: 'none' }}
         >
-            <Box sx={{ maxWidth: '600px', flex: 1, mx: 2 }}>
+            <Box sx={{ maxWidth: '600px', flex: 1, mx: 1 }}>
                 <TextField
                     fullWidth
                     label="Filter by name"

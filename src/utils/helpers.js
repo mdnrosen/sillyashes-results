@@ -22,6 +22,12 @@ export const getPercentile = i => {
     return percentile
 }
 
+
+
+export const capitalFirst = (str) => {
+    return str.charAt(0).toUpperCase() + str.slice(1)
+}
+
 // Leaving this here incase anything gets muddled
 export const sortByPosition = (all) => all.sort((a, b) => a.position - b.position)
 
@@ -45,19 +51,19 @@ export const setCircleStrokeColour = percentile => {
     let hexCode
     switch (true) {
         case (percentile > 90):
-            hexCode = '#69B34C'
+            hexCode = 'veryHigh'
             break
         case (percentile > 70):
-            hexCode = '#ACB334'
+            hexCode = 'high'
             break
         case (percentile > 50):
-            hexCode = '#FAB733'
+            hexCode = 'mid'
             break
         case (percentile > 30):
-            hexCode = '#FF8E15'
+            hexCode = 'low'
             break
         case (percentile > 10):
-            hexCode = '#FF4E11'
+            hexCode = 'awful'
             break
         default:
             hexCode = '#FF0D0D'
@@ -82,4 +88,19 @@ export const trophyDisplay = position => {
 
 export const getRoundPercentage = (score, questions) => {
     return Math.round((score / (questions.length * 5)) * 100)
+}
+
+export const getPerc = (score, total) =>  {
+    console.log('SCORE', score)
+    console.log('TOTAL', total )
+    return Math.round((score / total) * 100)
+}
+
+export const scoreColor = (score) => {
+    return score > 0 ? 'green' : 'red'
+}
+
+export const renderScore = (score) => {
+    return score > 0 ? `+${score}` : score
+
 }
