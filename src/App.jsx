@@ -7,6 +7,8 @@ import dump from './assets/dump'
 import markAll from './utils/marking'
 import { Header } from './components/Header'
 
+import ScrollToTop from './components/ScrollToTop'
+import ScrollTopButton from './components/ScrollTopButton'
 import { Home } from './pages/Home'
 import { Player } from './pages/Player'
 import { setPosition }  from './utils/helpers'
@@ -31,6 +33,8 @@ function App() {
       <ThemeProvider theme={theme}>
       <PeopleContext.Provider value={people}>
         <BrowserRouter>
+          <ScrollToTop />
+          <ScrollTopButton />
           <Header />
           <Routes>
             <Route path='/' element={<Home />} />

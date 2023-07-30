@@ -57,7 +57,7 @@ export const NumberRoundSummary = ({ questions }) => {
                                 <ListItem
                                     secondaryAction={
                                         <Stack direction="row" alignItems="center" sx={{ color: 'success'}}>
-                                            <Typography sx={{ ml: 1, color: scoreColor(q.points)}} variant="h6">{q.points}</Typography>
+                                            <Typography sx={{ ml: 1, color: scoreColor(q.points)}} variant="h5">{q.points}</Typography>
                                         </Stack> 
                                     }
                                 >

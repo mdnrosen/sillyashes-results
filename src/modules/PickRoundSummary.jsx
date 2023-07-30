@@ -19,8 +19,7 @@ export const PickRoundSummary = ({ questions, player }) => {
 
     const renderQuack = (q, i ) => {
         return (
-            <Box key={i}
-            >
+            <Box key={i}>
                 <Toolbar disableGutters sx={{ p: 1, borderTop: '1px solid grey'}}>
                     <Box sx={{ display: 'flex', flexDirection: 'column', width: '100%'}}>
                     <ListItem
