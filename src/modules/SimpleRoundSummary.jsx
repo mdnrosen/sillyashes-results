@@ -84,16 +84,16 @@ export const SimpleRoundSummary = ({ questions, player }) => {
                     </ListItem>
                 </Toolbar>
                 <Toolbar
-                sx={{ p: 1,  display: 'flex', flexWrap: 'wrap' }}   >
-                          {q.options.map((opt, i) => 
-                            <Chip 
-                              key={i}
-                                sx={{ m: 1}}
-                                label={capitalFirst(opt)} 
-                                variant={q.guessed === opt ? 'contained' : 'outlined'}
-                                color={q.correctAnswer.includes(opt) ? 'success' : 'error'}
-                            />
-                        )}
+                sx={{ p: 1,  display: 'flex', flexWrap: 'wrap' }}>
+                    {q.options.map((opt, i) => 
+                      <Chip 
+                        key={i}
+                          sx={{ m: 1}}
+                          label={capitalFirst(opt)} 
+                          variant={q.guessed === opt ? 'contained' : 'outlined'}
+                          color={q.correctAnswer.includes(opt) ? 'success' : 'error'}
+                      />
+                  )}
                 </Toolbar>
             </Box>
 
