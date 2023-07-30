@@ -116,17 +116,21 @@ const markAll = (person) => {
         const { guesses } = person;
         const result = answers.map(ans => {
             let points = 0
+            let accuracy = 'Not close enough'
             const { answer, questionName, questionNum, round, questionTitle, question } = ans
 
             const guessed = parseInt(guesses[questionName])
             if (between(guessed, minusPerc(answer, 0.15), addPerc(answer, 0.15))) {
                 points = 1
+                accuracy = 'Within 15%'
             }
             if (between(guessed, minusPerc(answer, 0.1), addPerc(answer, 0.1))) {
                 points = 3
+                accuracy = 'Within 10%'
             }
             if (between(guessed, minusPerc(answer, 0.05), addPerc(answer, 0.05))) {
                 points = 5
+                accuracy = 'Within 5%'
             }
 
 
@@ -137,6 +141,7 @@ const markAll = (person) => {
                 question,
                 questionName,
                 questionTitle,
+                accuracy,
                 guessed: guesses[questionName],
                 correctAnswer: answer,
                 points

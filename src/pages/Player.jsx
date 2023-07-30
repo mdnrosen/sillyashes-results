@@ -9,6 +9,7 @@ import { ExpandMore } from '@mui/icons-material'
 import { SimpleRoundSummary } from '../modules/SimpleRoundSummary'
 
 import { PickRoundSummary } from '../modules/PickRoundSummary'
+import { NumberRoundSummary } from '../modules/NumberRoundSummary'
 
 export const Player = () => {
     const people = useContext(PeopleContext)
@@ -50,6 +51,10 @@ export const Player = () => {
       <PickRoundSummary 
         player={player}
         questions={player.results.filter(p => p.roundNumber === 2)}
+      />
+      <NumberRoundSummary 
+        player={player}
+        questions={player.results.filter(p => p.roundNumber === 3)}
       />
       <SimpleRoundSummary 
         player={player}

@@ -8,7 +8,7 @@ import { getPerc, getRoundPercentage, renderScore, scoreColor } from '../utils/h
 export const PickRoundSummary = ({ questions, player }) => {
 
     // variables of max scores if harry fancies gradients for picks
-    const maxSixes = 14
+    const maxSixes = 15
     const maxFullStraight = 5
     const maxDucks = 1
 
@@ -26,7 +26,7 @@ export const PickRoundSummary = ({ questions, player }) => {
                     <ListItem
                         secondaryAction={
                             <Stack direction="row" alignItems="center" sx={{ color: 'success'}}>
-                                <Typography sx={{ ml: 1, color: scoreColor(q.points)}} variant="body1">{q.points}</Typography>
+                                <Typography sx={{ ml: 1, color: scoreColor(q.points)}} variant="h6">{q.points}</Typography>
                             </Stack>
                         }> 
                             <ListItemText 
