@@ -67,7 +67,7 @@ export const Player = () => {
                 <Typography variant="overline">Percentage</Typography>
               }
               secondary={
-                <PercentageSimple value={getPerc(player.totalScore, 262)}/>
+                <PercentageSimple value={getPerc(player.totalScore, 280)}/>
               }
             />
           </ListItem>

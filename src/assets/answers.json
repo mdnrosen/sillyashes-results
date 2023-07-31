@@ -75,7 +75,7 @@
         "questionNum": 5,
         "questionName": "h2h_runs_eng",
         "answer": [
-            "Harry Brook"
+            "Joe Root"
         ],
         "options": [
             "Joe Root",
@@ -92,7 +92,7 @@
         "questionNum": 6,
         "questionName": "h2h_runs_aus",
         "answer": [
-            "Marnus Labuschagne"
+            "Steve Smith"
         ],
         "options": [
             "Steve Smith",
@@ -224,7 +224,7 @@
         },
         "questionNum": 15,
         "questionName": "num_wk",
-        "answer": 44,
+        "answer": 42,
         "questionTitle": "In the gloves",
         "question": "How many wicket keeper catches?"
     },
@@ -235,7 +235,7 @@
         },
         "questionNum": 16,
         "questionName": "num_stokesSR",
-        "answer": 66,
+        "answer": 65,
         "questionTitle": "Go Hard",
         "question": "What will Ben Stokes' batting strike rate be?"
     },
@@ -246,7 +246,7 @@
         },
         "questionNum": 17,
         "questionName": "num_spin",
-        "answer": 30,
+        "answer": 33,
         "questionTitle": "Nice Garry",
         "question": "How many wickets will fall to spin?"
     },
@@ -257,7 +257,7 @@
         },
         "questionNum": 18,
         "questionName": "num_elevenRuns",
-        "answer": 54,
+        "answer": 56,
         "questionTitle": "Agar-ing it",
         "question": "How many runs will be scored at number 11?"
     },
@@ -362,7 +362,7 @@
         },
         "questionNum": 25,
         "questionName": "m_retirement",
-        "answer": "Neither",
+        "answer": "Stuart Broad",
         "questionTitle": "End of an era?",
         "question": "Who will annouce their retirement during or shortly after the series?",
         "options" : [

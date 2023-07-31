@@ -13,11 +13,11 @@
     },
     {
       "player": "Joe Root",
-      "num": 5
+      "num": 7
     },
     {
       "player": "Harry Brook",
-      "num": 0
+      "num": 3
     },
     {
       "player": "Ben Stokes",
@@ -29,11 +29,11 @@
     },
     {
       "player": "Moeen Ali",
-      "num": 2
+      "num": 4
     },
     {
       "player": "Stuart Broad",
-      "num": 3
+      "num": 1
     },
     {
       "player": "Ollie Robinson",
@@ -61,11 +61,11 @@
     },
     {
       "player": "Marnus Labuschagne",
-      "num": 0
+      "num": 2
     },
     {
       "player": "Steve Smith",
-      "num": 1
+      "num": 2
     },
     {
       "player": "Travis Head",
@@ -77,7 +77,7 @@
     },
     {
       "player": "Alex Carey",
-      "num": 1
+      "num": 2
     },
     {
       "player": "Pat Cummins",
@@ -101,10 +101,10 @@
     },
     {
       "player": "Mitch Marsh",
-      "num": 4
+      "num": 6
     },
     {
       "player": "Todd Murphy",
-      "num": 0
+      "num": 3
     }
    ]

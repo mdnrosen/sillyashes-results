@@ -10,8 +10,8 @@
         ],
         "tf_moeen": "false",
         "h2h_wickets_eng": "Stuart Broad",
-        "h2h_runs_aus": "Marnus Labuschagne",
-        "num_elevenRuns": "54",
+        "h2h_runs_aus": "Steve Smith",
+        "num_elevenRuns": "56",
         "h2h_runs_bowlers": "Stuart Broad",
         "tf_20wickets": "false",
         "h2h_reviews": "Australia",
@@ -20,7 +20,7 @@
         "tf_woakes": "true",
         "tf_rootTon": "true",
         "num_playersTotal": "28",
-        "num_stokesSR": "66",
+        "num_stokesSR": "65",
         "m_camGreen": "Batting Average",
         "m_firstInns": "350+",
         "fullStraight": {
@@ -32,7 +32,7 @@
         "tf_decided": "true",
         "bigHitters": {
           "engSixes": "Ben Stokes",
-          "ausSixes": "Pat Cummins"
+          "ausSixes": "Mitch Marsh"
         },
         "tf_moreThanBurns": "false",
         "h2h_wickets_aus": "Pat Cummins",
@@ -44,10 +44,10 @@
           "Chris Woakes",
           "Josh Hazlewood"
         ],
-        "num_spin": "30",
+        "num_spin": "33",
         "m_warnerBroad": "2 - 3",
         "h2h_catches": "Joe Root",
-        "num_wk": "44",
+        "num_wk": "42",
         "tons": [
           "Ben Stokes",
           "Usman Khawaja",
@@ -58,7 +58,7 @@
           "Marnus Labuschagne"
         ],
         "tf_bazBall": "true",
-        "m_retirement": "Neither"
+        "m_retirement": "Stuart Broad"
       },
       "id": "1c199c97-b4e9-4265-mr-93rf3c7",
       "name": "Control"

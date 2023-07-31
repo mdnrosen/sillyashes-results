@@ -9,11 +9,11 @@
     },
     {
       "player": "Moeen Ali",
-      "num": 1
+      "num": 2
     },
     {
       "player": "Stuart Broad",
-      "num": 3
+      "num": 4
     },
     {
       "player": "Ollie Robinson",
@@ -21,7 +21,7 @@
     },
     {
       "player": "James Anderson",
-      "num": 1
+      "num": 2
     },
     {
       "player": "Josh Tongue",
@@ -29,11 +29,11 @@
     },
     {
       "player": "Mark Wood",
-      "num": 4
+      "num": 5
     },
     {
       "player": "Chris Woakes",
-      "num": 1
+      "num": 3
     },
     {
       "player": "Marnus Labuschagne",
@@ -45,11 +45,11 @@
     },
     {
       "player": "Cameron Green",
-      "num": 1
+      "num": 3
     },
     {
       "player": "Pat Cummins",
-      "num": 3
+      "num": 4
     },
     {
       "player": "Nathan Lyon",
@@ -57,7 +57,7 @@
     },
     {
       "player": "Josh Hazlewood",
-      "num": 0
+      "num": 4
     },
     {
       "player": "Scott Boland",
@@ -69,7 +69,7 @@
     },
     {
       "player": "Mitchell Starc",
-      "num": 5
+      "num": 6
     },
     {
       "player": "Mitch Marsh",
@@ -77,6 +77,6 @@
     },
     {
       "player": "Todd Murphy",
-      "num": 0
+      "num": 2
     }
    ]

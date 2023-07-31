@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { Box, Typography, ListItem, ListItemText, ListItemAvatar } from '@mui/material'
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 
-import { trophyDisplay, posSfx, getRoundPercentage, getPerc } from '../utils/helpers'
+import { trophyDisplay, posSfx, getPerc } from '../utils/helpers'
 
 import { PercentageSimple } from './PercentageSimple';
 
@@ -55,7 +55,7 @@ export const PlayerCard = ({ player }) => {
                 />
 
             </ListItem>
-            <PercentageSimple value={getPerc(player.totalScore, 262)} />
+            <PercentageSimple value={getPerc(player.totalScore, 280)} />
         </Box>
     </Link>
   )

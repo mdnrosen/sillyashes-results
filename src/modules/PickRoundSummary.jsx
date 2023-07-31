@@ -214,7 +214,7 @@ export const PickRoundSummary = ({ questions, player }) => {
                     {/* Top/bottom scores result in values like 208% or -80% */}
                     {/* Would a different, points gained, points lost work better? */}
                     {/* e.g.: +45 / -30 */}
-                    <PercentageSimple value={getPerc(score, 122)}/>
+                    <PercentageSimple value={getPerc(score, 130)}/>
 
                 </ListItemAvatar>
                 <ListItemText 
@@ -225,7 +225,7 @@ export const PickRoundSummary = ({ questions, player }) => {
                     }
                     secondary={
                     // see above: does score / number of questions work? You see values like 51/25 or -20/25...
-                        <Typography variant="body1">{score}/{`122`}</Typography>
+                        <Typography variant="body1">{score}/{`130`}</Typography>
                     }
                 />
                 </ListItem>
