@@ -91,8 +91,6 @@ export const getRoundPercentage = (score, questions) => {
 }
 
 export const getPerc = (score, total) =>  {
-    console.log('SCORE', score)
-    console.log('TOTAL', total )
     return Math.round((score / total) * 100)
 }
 
