@@ -3,7 +3,7 @@ import { Box, ThemeProvider, Typography } from '@mui/material'
 import theme from '../configs/theme'
 
 
-export const HomeHeading = () => {
+export const HomeHeading = ({ text }) => {
 
 
     return (
@@ -20,7 +20,7 @@ export const HomeHeading = () => {
                         filter: { xs: 'blur(0.15px)', sm: '0.25px', md: '0.33px'}
                     }}
                 >
-                    THE RESULTS
+                    {text}
                 </Typography>
             </ThemeProvider>
         </Box>
